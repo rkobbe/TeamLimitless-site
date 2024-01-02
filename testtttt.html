@@ -25,10 +25,10 @@
 
 	JotForm.init(function(){
 	/*INIT-START*/
-      productID = {"0":"input_6_1004","1":"input_6_1005","2":"input_6_1006","3":"input_6_1007","4":"input_6_1008","5":"input_6_1009","6":"input_6_1010","7":"input_6_1011","8":"input_6_1012","9":"input_6_1013","10":"input_6_1015","11":"input_6_1016","12":"input_6_1017"};
+      productID = {"0":"input_6_1004","1":"input_6_1005","2":"input_6_1006","3":"input_6_1007","4":"input_6_1008","5":"input_6_1009","6":"input_6_1010","7":"input_6_1011","8":"input_6_1012","9":"input_6_1013","10":"input_6_1015","11":"input_6_1016","12"};
       paymentType = "subscription";
       JotForm.setCurrencyFormat('USD',true, 'point');
-      JotForm.totalCounter({"input_6_1004":{"price":"199.97"},"input_6_1005":{"price":"509.92"},"input_6_1006":{"price":"959.86"},"input_6_1007":{"price":"199.97"},"input_6_1008":{"price":"509.92"},"input_6_1009":{"price":"959.86"},"input_6_1010":{"price":"179.97"},"input_6_1011":{"price":"0458.93"},"input_6_1012":{"price":"863.86"},"input_6_1013":{"price":"179.97"},"input_6_1015":{"price":"458.93"},"input_6_1016":{"price":"863.86"},"input_6_1017":{"price":"0"}});
+      JotForm.totalCounter({"input_6_1004":{"price":"199.97"},"input_6_1005":{"price":"509.92"},"input_6_1006":{"price":"959.86"},"input_6_1007":{"price":"199.97"},"input_6_1008":{"price":"509.92"},"input_6_1009":{"price":"959.86"},"input_6_1010":{"price":"179.97"},"input_6_1011":{"price":"0458.93"},"input_6_1012":{"price":"863.86"},"input_6_1013":{"price":"179.97"},"input_6_1015":{"price":"458.93"},"input_6_1016":{"price":"863.86"}});
       $$('.form-product-custom_quantity').each(function(el, i){el.observe('blur', function(){isNaN(this.value) || this.value < 1 ? this.value = '0' : this.value = parseInt(this.value)})});
       $$('.form-product-custom_quantity').each(function(el, i){el.observe('focus', function(){this.value == 0 ? this.value = '' : this.value})});
       JotForm.handleProductLightbox();
