@@ -212,17 +212,7 @@ body {
     transition: .5s;
     z-index: 1;
 }
-    .carousel-item {
-        padding: 10 px; /* Adjust the padding as needed */
-        background-color: black;
-    }
 
-    .carousel-item img {
-        width: calc (100 % - 20 px); /* Adjust the width to consider padding */
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
 .page-header {
     margin-bottom: 6 rem;
     background-size: cover;
