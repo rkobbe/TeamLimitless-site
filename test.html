@@ -1248,7 +1248,28 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
     </ul>
   </div>
   <script>
+let paypalTotal = 0;
 
+    // Function to update PayPal total based on user's choice
+    function updatePayPalTotal() {
+        // Get the selected radio button value
+        let radioValue = document.querySelector('input[name="q60_highlyRecommend"]:checked').value;
+
+        // Check the user's choice and update the PayPal total accordingly
+        if (radioValue === "Highly recommend: Would you like a custom built workout program from our Head Of Programming?") {
+            paypalTotal += 50;
+        } else if (radioValue === "No thank you, I will handle this on my own.") {
+            // Handle other cases if needed
+        }
+
+        // Log the updated total (you would typically update your UI here)
+        console.log("Updated PayPal Total: $" + paypalTotal);
+    }
+
+    // Attach the function to the radio buttons' change event
+    document.querySelectorAll('input[name="q60_highlyRecommend"]').forEach(function(radio) {
+        radio.addEventListener('change', updatePayPalTotal);
+    });
   </script>
   <script>
     JotForm.poweredByText = "Thank You ";
