@@ -212,7 +212,15 @@ body {
     transition: .5s;
     z-index: 1;
 }
+    .fixed-image-container {
+        text-align: center;
+    }
 
+    .fixed-image-container img {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
 .page-header {
     margin-bottom: 6 rem;
     background-size: cover;
