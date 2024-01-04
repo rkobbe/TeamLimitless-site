@@ -55,10 +55,10 @@
     
       JotForm.init(function(){
       /*INIT-START*/
-          productID = {"0":"input_6_1004","1":"input_6_1005","2":"input_6_1006","3":"input_6_1007","4":"input_6_1008","5":"input_6_1009","6":"input_6_1010","7":"input_6_1011","8":"input_6_1012","9":"input_6_1013","10":"input_6_1015","11":"input_6_1016","12":"input_6_1017"};
+          productID = {"0":"input_6_1004","1":"input_6_1005","2":"input_6_1006","3":"input_6_1007","4":"input_6_1008","5":"input_6_1009","6":"input_6_1010","7":"input_6_1011","8":"input_6_1012","9":"input_6_1013","10":"input_6_1015","11":"input_6_1016"};
           paymentType = "subscription";
           JotForm.setCurrencyFormat('USD',true, 'point');
-          JotForm.totalCounter({"input_6_1004":{"price":"199.97"},"input_6_1005":{"price":"509.92"},"input_6_1006":{"price":"959.86"},"input_6_1007":{"price":"199.97"},"input_6_1008":{"price":"509.92"},"input_6_1009":{"price":"959.86"},"input_6_1010":{"price":"179.97"},"input_6_1011":{"price":"0458.93"},"input_6_1012":{"price":"863.86"},"input_6_1013":{"price":"179.97"},"input_6_1015":{"price":"458.93"},"input_6_1016":{"price":"863.86"},"input_6_1017":{"price":"0"}});
+          JotForm.totalCounter({"input_6_1004":{"price":"199.97"},"input_6_1005":{"price":"509.92"},"input_6_1006":{"price":"959.86"},"input_6_1007":{"price":"199.97"},"input_6_1008":{"price":"509.92"},"input_6_1009":{"price":"959.86"},"input_6_1010":{"price":"179.97"},"input_6_1011":{"price":"0458.93"},"input_6_1012":{"price":"863.86"},"input_6_1013":{"price":"179.97"},"input_6_1015":{"price":"458.93"},"input_6_1016":{"price":"863.86"}});
           $$('.form-product-custom_quantity').each(function(el, i){el.observe('blur', function(){isNaN(this.value) || this.value < 1 ? this.value = '0' : this.value = parseInt(this.value)})});
           $$('.form-product-custom_quantity').each(function(el, i){el.observe('focus', function(){this.value == 0 ? this.value = '' : this.value})});
           JotForm.handleProductLightbox();
@@ -813,9 +813,6 @@
 </div>
     
     <!-- Topbar End -->
-  
-</body>
-<body>
 
 <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.49493" type="text/javascript"></script>
 <script src="https://cdn01.jotfor.ms/static/jotform.forms.js?v=3.3.49493" type="text/javascript"></script>
@@ -846,7 +843,7 @@
       productID = {"0":"input_6_1004","1":"input_6_1005","2":"input_6_1006","3":"input_6_1007","4":"input_6_1008","5":"input_6_1009","6":"input_6_1010","7":"input_6_1011","8":"input_6_1012","9":"input_6_1013","10":"input_6_1015","11":"input_6_1016","12":"input_6_1017"};
       paymentType = "subscription";
       JotForm.setCurrencyFormat('USD',true, 'point');
-      JotForm.totalCounter({"input_6_1004":{"price":"199.97"},"input_6_1005":{"price":"509.92"},"input_6_1006":{"price":"959.86"},"input_6_1007":{"price":"199.97"},"input_6_1008":{"price":"509.92"},"input_6_1009":{"price":"959.86"},"input_6_1010":{"price":"179.97"},"input_6_1011":{"price":"0458.93"},"input_6_1012":{"price":"863.86"},"input_6_1013":{"price":"179.97"},"input_6_1015":{"price":"458.93"},"input_6_1016":{"price":"863.86"},"input_6_1017":{"price":"0"}});
+      JotForm.totalCounter({"input_6_1004":{"price":"199.97"},"input_6_1005":{"price":"509.92"},"input_6_1006":{"price":"959.86"},"input_6_1007":{"price":"199.97"},"input_6_1008":{"price":"509.92"},"input_6_1009":{"price":"959.86"},"input_6_1010":{"price":"179.97"},"input_6_1011":{"price":"0458.93"},"input_6_1012":{"price":"863.86"},"input_6_1013":{"price":"179.97"},"input_6_1015":{"price":"458.93"},"input_6_1016":{"price":"863.86"}});
       $$('.form-product-custom_quantity').each(function(el, i){el.observe('blur', function(){isNaN(this.value) || this.value < 1 ? this.value = '0' : this.value = parseInt(this.value)})});
       $$('.form-product-custom_quantity').each(function(el, i){el.observe('focus', function(){this.value == 0 ? this.value = '' : this.value})});
       JotForm.handleProductLightbox();
@@ -889,7 +886,6 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
                 <ul class="form-overlay-item" pid="1013" hasicon="false" hasimages="false" iconvalue=""></ul>
                 <ul class="form-overlay-item" pid="1015" hasicon="false" hasimages="false" iconvalue=""></ul>
                 <ul class="form-overlay-item" pid="1016" hasicon="false" hasimages="false" iconvalue=""></ul>
-                <ul class="form-overlay-item" pid="1017" hasicon="false" hasimages="false" iconvalue=""></ul>
               </span></div>
             <div data-wrapper-react="true"><span class="form-product-item hover-product-item  new_ui" categories="non-categorized" pid="1004" aria-labelledby="label_6">
                 <div data-wrapper-react="true" class="form-product-item-detail new_ui">
@@ -903,7 +899,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
                     <div class="image_area "></div>
                   </div>
                   <div for="input_6_1004" class="form-product-container"><span data-wrapper-react="true">
-                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1004">Cody Monthly Subscription</span><span class="form-product-description" id="product-name-description-input_6_1004"></span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1004_price">199.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1004">Cody Monthly Subscription</span><span class="form-product-description" id="product-name-description-input_6_1004">($199.97 Monthly)</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1004_price">199.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
                     </span></div>
                   <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                 </div>
@@ -937,7 +933,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
                     <div class="image_area "></div>
                   </div>
                   <div for="input_6_1006" class="form-product-container"><span data-wrapper-react="true">
-                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1006">Cody 6 Months Upfront </span><span class="form-product-description" id="product-name-description-input_6_1006">($159.97 Monthly</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1006_price">959.86</span></span></b><span data-wrapper-react="true"> for each <u>six months</u></span></span></span>
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1006">Cody 6 Months Upfront </span><span class="form-product-description" id="product-name-description-input_6_1006">($159.97 Monthly)</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1006_price">959.86</span></span></b><span data-wrapper-react="true"> for each <u>six months</u></span></span></span>
                     </span></div>
                   <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                 </div>
@@ -954,7 +950,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
                     <div class="image_area "></div>
                   </div>
                   <div for="input_6_1007" class="form-product-container"><span data-wrapper-react="true">
-                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1007">Kyle Monthly Subscription </span><span class="form-product-description" id="product-name-description-input_6_1007"></span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1007_price">199.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1007">Kyle Monthly Subscription </span><span class="form-product-description" id="product-name-description-input_6_1007"><($199.97 Monthly)/span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1007_price">199.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
                     </span></div>
                   <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                 </div>
@@ -1005,7 +1001,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
                     <div class="image_area "></div>
                   </div>
                   <div for="input_6_1010" class="form-product-container"><span data-wrapper-react="true">
-                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1010">Brian Monthly Subscription</span><span class="form-product-description" id="product-name-description-input_6_1010"></span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1010_price">179.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1010">Brian Monthly Subscription</span><span class="form-product-description" id="product-name-description-input_6_1010">($179.97 Monthly)</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1010_price">179.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
                     </span></div>
                   <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                 </div>
@@ -1056,7 +1052,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
                     <div class="image_area "></div>
                   </div>
                   <div for="input_6_1013" class="form-product-container"><span data-wrapper-react="true">
-                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1013">Bizzer Monthly Subscription: </span><span class="form-product-description" id="product-name-description-input_6_1013"></span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1013_price">179.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1013">Bizzer Monthly Subscription: </span><span class="form-product-description" id="product-name-description-input_6_1013">($179.97 Monthly)</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1013_price">179.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
                     </span></div>
                   <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                 </div>
@@ -1091,23 +1087,6 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
                   </div>
                   <div for="input_6_1016" class="form-product-container"><span data-wrapper-react="true">
                       <div class="title_description"><span class="form-product-name" id="product-name-input_6_1016">Bizzer 6 Months Upfront</span><span class="form-product-description" id="product-name-description-input_6_1016">($143.97 Monthly)</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1016_price">863.86</span></span></b><span data-wrapper-react="true"> for each <u>six months</u></span></span></span>
-                    </span></div>
-                  <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
-                </div>
-              </span>
-              <div class="p_item_separator "></div><span class="form-product-item hover-product-item  new_ui" categories="non-categorized" pid="1017" aria-labelledby="label_6">
-                <div data-wrapper-react="true" class="form-product-item-detail new_ui">
-                  <div class="p_col">
-                    <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1017" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1017" readonly="" aria-label="Select Product: test" />
-                      <div class="checked"></div>
-                      <div class="select_border"></div>
-                    </div>
-                  </div>
-                  <div class="p_image">
-                    <div class="image_area "></div>
-                  </div>
-                  <div for="input_6_1017" class="form-product-container"><span data-wrapper-react="true">
-                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1017">test</span><span class="form-product-description" id="product-name-description-input_6_1017"></span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true"><span class="freeCurr" style="display:none"> $</span><span id="input_6_1017_price"> Free</span><span class="freeCurr" style="display:none">  </span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
                     </span></div>
                   <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                 </div>
