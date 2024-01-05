@@ -767,14 +767,54 @@
         padding-left : 52px;
         font-size : 20px !important;
     }
-    
-    
-        /* Injected CSS Code */
-    </style>
+        @media (min-width: 768px) {
+        .navbar-collapse {
+            display: block !important;
+            height: auto !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            position: relative !important;
+            transition: none !important;
+        }
+
+        .navbar-collapse.collapse {
+            display: none !important;
+            height: 0px !important;
+            transition: height 0.3s ease !important;
+        }
+    }
+ </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Check if the device screen width is less than or equal to 768px (Bootstrap's small screen)
+        function checkWidth() {
+            var windowWidth = $(window).width();
+            if (windowWidth <= 768) {
+                // For small screens, show navbar on hover
+                $('#navbarNav').hover(
+                    function() {
+                        $(this).addClass('show');
+                    },
+                    function() {
+                        $(this).removeClass('show');
+                    }
+                );
+            } else {
+                // If screen size is larger, remove hover effect
+                $('#navbarNav').removeClass('show');
+            }
+        }
+
+        // Check on page load and on resize
+        checkWidth();
+        $(window).resize(checkWidth);
+    });
+</script>
     
 <body>
 
-    <!-- Topbar Start -->
+
 <div class="container-fluid top-bar bg-dark text-light px-2 py-2 wow fadeIn" data-wow-delay="0.1s">
     <div class="row align-items-center">
         <div class="col-md-6 col-sm-6 text-start bg-dark text-white">
@@ -790,15 +830,7 @@
                         <li class="nav-item" style="padding-left: 20px;">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link"style="padding-left:20px" href="team.html">Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="padding-left:20px" href="testimonial.html">Testimonial</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="padding-left:20px" href="test.html">Join</a>
-                        </li>
+                        <!-- other list items -->
                     </ul>
                 </div>
             </nav>
@@ -811,7 +843,7 @@
         </div>
     </div>
 </div>
-    
+
     <!-- Topbar End -->
 
 <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.49493" type="text/javascript"></script>
