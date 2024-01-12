@@ -1517,7 +1517,21 @@ div.form-header-group.hasImage {
                   <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                 </div>
               </span>
-              <div class="payment_footer new_ui ">
+                            <div class="payment_footer new_ui show_coupon">
+                <div id="coupon-container" style="border:1px solid lightgray;padding:5px;border-radius:6px;width:200px;margin-top:8px">
+                  <table id="coupon-table">
+                    <tr>
+                      <th colSpan="2" style="text-align:left"><label id="coupon-header" for="coupon-input">Enter coupon</label></th>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="coupon-input" id="coupon-input" data-stripe="false" size="15" placeholder="Enter Coupon Code" autoComplete="off" aria-labelledby="coupon-header coupon-message" /></td>
+                      <td width="40%" style="text-align:center"><img loading="lazy" src="https://cdn.jotfor.ms//images/ajax-loader.gif" alt="coupon loading" id="coupon-loader" style="display:none;vertical-align:top" /><button type="button" id="coupon-button" data-qid="input_6" value="">Apply</button></td>
+                    </tr>
+                    <tr>
+                      <th colSpan="2" style="text-align:left"><span id="coupon-message" role="alert"></span></th>
+                    </tr>
+                  </table>
+                </div><input type="hidden" id="input_6_coupon" name="coupon" />
                 <div class="total_area">
                   <div class="form-payment-recurringpayments form-payment-label">
                     <div id="recurringpayments-text">Total</div>
