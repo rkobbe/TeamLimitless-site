@@ -98,6 +98,7 @@ body {
 
 
 /*** Navbar ***/
+/*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\25BC";
@@ -107,8 +108,8 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-    padding: 5px 10px 5px 10 px;
-    color: #F0f0f0;
+    padding: 5px 10px 5px 10px; /* Fixed a typo here */
+    color: #f0f0f0;
     outline: none;
 }
 
@@ -122,14 +123,8 @@ body {
 }
 
 @media (max-width: 991.98px) {
-    .navbar .navbar-nav {
-        margin-top: 10px;
-        border-top: 1px solid rgb(0, 0, 0);
-        background: var(--dark);
-    }
-
-    .navbar .navbar-nav .nav-link {
-        padding: 10px 0;
+    .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: none; /* Hide the dropdown menu on hover */
     }
 }
 
@@ -152,82 +147,24 @@ body {
     }
 }
 
-
-/*** Header ***/
-.header-carousel .owl-carousel-inner {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-}
-
-@media (max-width: 768px) {
-    .header-carousel .owl-carousel-item {
-        position: relative;
-        min-height: 600px;
-    }
-
-    .header-carousel .owl-carousel-item img {
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+        display: none; /* Hide the dropdown menu by default */
         position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        background-color: #333; /* Background color for dropdown menu */
+        z-index: 999;
     }
 
-    .header-carousel .owl-carousel-item p {
-        font-size: 10px !important;
-        font-family: 'Rockwell', serif;
-    }
-}
-
-.header-carousel .owl-nav {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    margin: -40px auto 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header-carousel .owl-nav::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #FFFFFF;
-    transform: rotate(45deg);
-}
-
-.header-carousel .owl-nav .owl-prev,
-.header-carousel .owl-nav .owl-next {
-    position: relative;
-    font-size: 40px;
-    color: var(--primary);
-    transition: .5s;
-    z-index: 1;
-}
-    .fixed-image-container {
-        text-align: center;
+    .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block; /* Display the dropdown menu on hover */
     }
 
-    .fixed-image-container img {
-        width: 100%;
-        max-width: 100%;
-        object-fit: cover;
+    .navbar .navbar-nav .nav-item.dropdown .dropdown-menu a {
+        color: #fff; /* Text color for dropdown menu items */
+        display: block;
+        padding: 10px;
+        text-decoration: none;
     }
-.page-header {
-    margin-bottom: 6 rem;
-    background-size: cover;
-}
-
-.breadcrumb-item+.breadcrumb-item::before {
-    color: var (--light);
 }
 
 
@@ -248,8 +185,8 @@ body {
 .img-twice::before {
     position: absolute;
     content: "";
-    width: 60%;
-    height: 80%;
+    width: 40%;
+    height: 60%;
     top: 10%;
     left: 20%;
     border-radius: 6px;
@@ -506,6 +443,11 @@ body {
     height: 60%; /* Adjust height for Tile 3 */
     flex-basis: 24.2%
   }
+
+  .no-arrow::after {
+    display: none !important;
+}
+
   
 /* Image Click on team Page */
 
