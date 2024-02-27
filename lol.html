@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Reviews Widget</title>
+</head>
+<body>
+    <!-- Place this div where you want your Google Reviews widget to appear -->
+    <div id="google-reviews"></div>
+
+    <!-- Replace YOUR_API_KEY with your actual Google API key -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('google-reviews'), {
+                center: { lat: -33.866, lng: 151.196 },
+                zoom: 15
+            });
+
+            var service = new google.maps.places.PlacesService(map);
+            service.getDetails({
+                placeId: 'YOUR_PLACE_ID' // Replace YOUR_PLACE_ID with your actual Google Place ID
+            }, function (place, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK) {
+                    var reviews = place.reviews;
+
+                    // Create a list to display the reviews
+                    var reviewList = document.createElement('ul');
+
+                    // Loop through the reviews and create list items for each
+                    for (var i = 0; i < reviews.length; i++) {
+                        var review = reviews[i];
+                        var listItem = document.createElement('li');
+                        listItem.textContent = review.text;
+                        reviewList.appendChild(listItem);
+                    }
+
+                    // Append the review list to the div
+                    document.getElementById('google-reviews').appendChild(reviewList);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
