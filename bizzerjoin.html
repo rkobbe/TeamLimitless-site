@@ -28,80 +28,76 @@
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
 
-  <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.51744" type="text/javascript"></script>
-  <script src="https://cdn01.jotfor.ms/static/jotform.forms.js?v=3.3.51744" type="text/javascript"></script>
-  <script src="https://cdn02.jotfor.ms/js/punycode-1.4.1.min.js?v=3.3.51744" type="text/javascript" defer></script>
-  <script src="https://cdn03.jotfor.ms/js/vendor/maskedinput_5.0.9.min.js?v=3.3.51744" type="text/javascript"></script>
-  <script src="https://cdn01.jotfor.ms/js/paypal.js?v=3.3.51744" type="text/javascript"></script>
-  <script src="https://cdn02.jotfor.ms/js/payments/paymentUtils.js?v=3.3.51744" type="text/javascript"></script>
-  <script src="https://cdn03.jotfor.ms/js/payments/validategateways.js?v=3.3.51744" type="text/javascript"></script>
-  <script src="https://cdn01.jotfor.ms/js/vendor/smoothscroll.min.js?v=3.3.51744" type="text/javascript"></script>
-  <script src="https://cdn02.jotfor.ms/js/errorNavigation.js?v=3.3.51744" type="text/javascript"></script>
-  <script type="text/javascript">	JotForm.newDefaultTheme = true;
-      JotForm.extendsNewTheme = false;
-      JotForm.singleProduct = false;
-      JotForm.newPaymentUIForNewCreatedForms = false;
-      JotForm.texts = {"confirmEmail":"E-mail does not match","pleaseWait":"Please wait...","validateEmail":"You need to validate this e-mail","confirmClearForm":"Are you sure you want to clear the form","lessThan":"Your score should be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","required":"This field is required.","requireOne":"At least one field required.","requireEveryRow":"Every row is required.","requireEveryCell":"Every cell is required.","email":"Enter a valid e-mail address","alphabetic":"This field can only contain letters","numeric":"This field can only contain numeric values","alphanumeric":"This field can only contain letters and numbers.","cyrillic":"This field can only contain cyrillic characters","url":"This field can only contain a valid URL","currency":"This field can only contain currency values.","fillMask":"Field value must fill mask.","uploadExtensions":"You can only upload following files:","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","gradingScoreError":"Score total should only be less than or equal to","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","maxDigitsError":"The maximum digits allowed is","minCharactersError":"The number of characters should not be less than the minimum value:","maxCharactersError":"The number of characters should not be more than the maximum value:","freeEmailError":"Free email accounts are not allowed","minSelectionsError":"The minimum required number of selections is ","maxSelectionsError":"The maximum number of selections allowed is ","pastDatesDisallowed":"Date must not be in the past.","dateLimited":"This date is unavailable.","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","ageVerificationError":"You must be older than {minAge} years old to submit this form.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","chooseAFile_infoMessage":"Choose a file","maxFileSize_infoMessage":"Max. file size","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","ccInvalidNumber":"Credit Card Number is invalid.","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingProduct":"Please select at least one product.","ccMissingDonation":"Please enter numeric values for donation amount.","disallowDecimals":"Please enter a whole number.","restrictedDomain":"This domain is not allowed","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","requiredLegend":"All fields marked with * are required and must be filled.","geoPermissionTitle":"Permission Denied","geoPermissionDesc":"Check your browser's privacy settings.","geoNotAvailableTitle":"Position Unavailable","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoTimeoutTitle":"Timeout","geoTimeoutDesc":"Please check your internet connection and try again.","selectedTime":"Selected Time","formerSelectedTime":"Former Time","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","noSlotsAvailable":"No slots available","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","multipleError":"There are {count} errors on this page. Please correct them before moving on.","oneError":"There is {count} error on this page. Please correct it before moving on.","doneMessage":"Well done! All errors are fixed.","invalidTime":"Enter a valid time","doneButton":"Done","reviewSubmitText":"Review and Submit","nextButtonText":"Next","prevButtonText":"Previous","seeErrorsButton":"See Errors","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","soldOut":"Sold Out","justSoldOut":"Just Sold Out","selectionSoldOut":"Selection Sold Out","subProductItemsLeft":"({count} items left)","startButtonText":"START","submitButtonText":"Submit","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","reviewBackText":"Back to Form","seeAllText":"See All","progressMiddleText":"of","fieldError":"field has an error.","error":"Error"};
-      JotForm.newPaymentUI = true;
-      JotForm.replaceTagTest = true;
-  
-     JotForm.setConditions([{"action":[{"id":"action_1704833600459","visibility":"HideMultiple","isError":false,"fields":["38","57","40","41","42","43","65","45","47","77","78","70","71","72","73","74","75","76","48","49","66","67","83","82","68","69","50","51","80","81","79"]},{"id":"action_1704833546280","visibility":"Hide","isError":false,"field":"53"},{"id":"action_2_1704833525008","visibility":"Hide","isError":false,"field":"26"}],"id":"1704828066504","index":"0","link":"Any","priority":"0","terms":[{"id":"term_0_1704833525007","field":"6","operator":"equals","value":"1030","isError":false}],"type":"field"}]);	JotForm.submitError="jumpToFirstError";
-      JotForm.isFullSource = true;
-  
-      JotForm.init(function(){
-      /*INIT-START*/
-        JotForm.setPhoneMaskingValidator( 'input_40_full', '\u0028\u0023\u0023\u0023\u0029 \u0023\u0023\u0023\u002d\u0023\u0023\u0023\u0023' );
-  if (window.JotForm && JotForm.accessible) $('input_41').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_65').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_45').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_78').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_70').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_72').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_73').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_74').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_75').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_49').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_66').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_67').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_83').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_82').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_50').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_51').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_80').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_81').setAttribute('tabindex',0);
-  if (window.JotForm && JotForm.accessible) $('input_79').setAttribute('tabindex',0);
-        productID = {"0":"input_6_1013","1":"input_6_1027","2":"input_6_1015","3":"input_6_1028","4":"input_6_1016","5":"input_6_1029","6":"input_6_1030"};
-        paymentType = "subscription";
-        JotForm.setCurrencyFormat('USD',true, 'point');
-        JotForm.totalCounter({"input_6_1013":{"price":"179.97","recurrence_interval":"MONTH","recurrence_unit":1,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1027":{"price":"229.96","recurring":"179.97","firstPaymentVal":"229.96","customFirstPaymentPrice":"229.96","recurrence_interval":"MONTH","recurrence_unit":1,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1015":{"price":"458.93","recurrence_interval":"MONTH","recurrence_unit":3,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1028":{"price":"508.92","recurring":"458.93","firstPaymentVal":"508.92","customFirstPaymentPrice":"0","recurrence_interval":"MONTH","recurrence_unit":1,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1016":{"price":"863.86","recurrence_interval":"MONTH","recurrence_unit":6,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1029":{"price":"913.85","recurring":"863.86","firstPaymentVal":"913.85","customFirstPaymentPrice":"0","recurrence_interval":"MONTH","recurrence_unit":6,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1030":{"price":"49.99","recurrence_interval":"YEAR","recurrence_unit":2,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"1"}});
-        $$('.form-product-custom_quantity').each(function(el, i){el.observe('blur', function(){isNaN(this.value) || this.value < 1 ? this.value = '0' : this.value = parseInt(this.value)})});
-        $$('.form-product-custom_quantity').each(function(el, i){el.observe('focus', function(){this.value == 0 ? this.value = '' : this.value})});
-        JotForm.handleProductLightbox();
-        JotForm.alterTexts({"ageVerificationError":"You must be older than {minAge} years old to submit this form.","alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccInvalidNumber":"Credit Card Number is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Please enter numeric values for donation amount.","ccMissingProduct":"Please select at least one product.","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","chooseAFile_infoMessage":"Choose a file","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","currency":"This field can only contain currency values.","cyrillic":"This field can only contain cyrillic characters","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","dateLimited":"This date is unavailable.","disallowDecimals":"Please enter a whole number.","doneButton":"Done","doneMessage":"Well done! All errors are fixed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","email":"Enter a valid e-mail address","error":"Error","fieldError":"field has an error.","fillMask":"Field value must fill mask.","formerSelectedTime":"Former Time","freeEmailError":"Free email accounts are not allowed","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoNotAvailableTitle":"Position Unavailable","geoPermissionDesc":"Check your browser's privacy settings.","geoPermissionTitle":"Permission Denied","geoTimeoutDesc":"Please check your internet connection and try again.","geoTimeoutTitle":"Timeout","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","invalidTime":"Enter a valid time","justSoldOut":"Just Sold Out","lessThan":"Your score should be less than or equal to","maxCharactersError":"The number of characters should not be more than the maximum value:","maxDigitsError":"The maximum digits allowed is","maxFileSize_infoMessage":"Max. file size","maxSelectionsError":"The maximum number of selections allowed is ","minCharactersError":"The number of characters should not be less than the minimum value:","minSelectionsError":"The minimum required number of selections is ","multipleError":"There are {count} errors on this page. Please correct them before moving on.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","nextButtonText":"Next","noSlotsAvailable":"No slots available","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"This field can only contain numeric values","oneError":"There is {count} error on this page. Please correct it before moving on.","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Please wait...","prevButtonText":"Previous","progressMiddleText":"of","required":"This field is required.","requiredLegend":"All fields marked with * are required and must be filled.","requireEveryCell":"Every cell is required.","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","restrictedDomain":"This domain is not allowed","reviewBackText":"Back to Form","reviewSubmitText":"Review and Submit","seeAllText":"See All","seeErrorsButton":"See Errors","selectedTime":"Selected Time","selectionSoldOut":"Selection Sold Out","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","soldOut":"Sold Out","startButtonText":"START","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","submitButtonText":"Submit","subProductItemsLeft":"({count} items left)","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","url":"This field can only contain a valid URL","validateEmail":"You need to validate this e-mail","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is"});
-        JotForm.alterTexts(undefined, true);
-      /*INIT-END*/
-      });
-  
-     setTimeout(function() {
-  JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"Continue To Checkout","type":"control_button"},null,null,null,{"description":"","name":"signMe6","qid":"6","text":"Select the coach and plan you will be working with","type":"control_paypal"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"ltpStyletextaligncentergtltstronggtcompany","qid":"26","text":"Limitless Physiques\r\nFirst and foremost, when you are accepted, and we enter into this coach-team member relationship, we have your best interest in mind always.\r\nWe are supportive and honest coaches. We expect you to give us matched efforts within your journey ahead.","type":"control_text"},{"name":"lth3gtfirstAnd","qid":"27","text":"You will have access to the following:\r\nComplete nutrition recommendations for both off-season, contest prep, and lifestyle with changes made as much as needed.\r\nComplete supplement recommendations for both off-season, contest prep and lifestyle with changes made as needed, focusing on performance and health optimization.\r\nThorough weekly evaluations of your check ins where your entire check in is assessed and changes are made as needed.\r\nUnlimited Whatsapp access during normal business days.Unlimited Instagram (Team_LMTLS) access during normal business days.\r\n12 week long training programs for an additional cost of $49.99 (see packages below)\r\nBusiness Hours:Monday - Check In Day \u002F Full CommunicationTuesday - Check In Day \u002F Full CommunicationWednesday - Family Day (Emergency Only)Thursday - Family Day (Emergency Only)Friday - Check In Day \u002F Full CommunicationSaturday - Show Day \u002F Travel Day \u002F Delayed Full CommunicationSunday - Check In Day \u002F Full Communication\r\n ","type":"control_text"},null,{"name":"lth2gtyouWill","qid":"29","text":"What Team Limitless Physiques Expects from You.\r\nAs your coaches, all we ask is that you give 100% effort to the plan and consistency within the variables that are laid out for you.\r\nIt is your responsibility to check in each week on time (before 8:00AM EST) and on your respective check in day (assigned by your coach). Set a timer on your phone, if needed, until this becomes second nature.\r\nHonest and thorough check-ins are necessary for your coach to properly coach you towards your goals. Answer each check in question in full without including unnecessary information.We will always give you 100%, so we expect your 100% effort in return.\r\n ","type":"control_text"},{"name":"lth2gtyouWill30","qid":"30","text":"Liability:\r\nI hereby assume full responsibility for any results, injuries, losses and damages incurred while participating in any Limitless Physiques program. I hereby waive all claims against Limitless, its agents, its employees for any and all injuries, claims or damages that I may incur.","type":"control_text"},null,null,null,null,{"description":"","name":"name","qid":"35","text":"Name","type":"control_fullname"},null,{"description":"","name":"email","qid":"37","subLabel":"example@example.com","text":"Email","type":"control_email"},{"name":"lth2gtliabilitylth2gtltpgti","qid":"38","text":"Please agree below if you fully understand what is expected from coach to team member and from team member to coach.","type":"control_text"},null,{"description":"","name":"phoneNumber","qid":"40","text":"Phone Number","type":"control_phone"},{"description":"","name":"instagramHandle","qid":"41","subLabel":"","text":"Instagram Handle","type":"control_textbox"},{"description":"","name":"age","qid":"42","subLabel":"","text":"Age","type":"control_number"},{"description":"","name":"height","qid":"43","subLabel":"","text":"Height ( Inches ) ","type":"control_number"},null,{"description":"","name":"typeA45","qid":"45","subLabel":"","text":"Gender","type":"control_textbox"},null,null,{"description":"","name":"whatType","qid":"48","subLabel":"","text":"What type of plan would you prefer?","type":"control_dropdown"},{"description":"","mde":"No","name":"whatDo49","qid":"49","subLabel":"","text":"If you selected \"Strict Plan\" please list foods you are allergic to. If none type N\u002FA :","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"ifYou","qid":"50","subLabel":"","text":"If taking any over the counter supplements \u002F vitamins please list below:","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"ifTaking","qid":"51","subLabel":"","text":"If taking any super supplementation\u002FPEDs please list below dosages per week \u002F length of time. Also list the goal with this supplementation. If not type N\u002FA:","type":"control_textarea","wysiwyg":"Disable"},null,{"description":"","name":"typeA","qid":"53","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},{"description":"","name":"byChecking","qid":"54","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},{"description":"","name":"byChecking55","qid":"55","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},{"description":"","name":"byChecking56","qid":"56","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},{"description":"","name":"byChecking57","qid":"57","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},null,null,null,null,null,null,null,{"description":"","name":"weight","qid":"65","subLabel":"","text":"Weight ","type":"control_textbox"},{"description":"","mde":"No","name":"ifYou66","qid":"66","subLabel":"","text":"Please list carb sources you DON'T like ( i.e., sweet potato, white potato, jasmine, rice, cream of rice, oats, cereals, quinoa, fruit -- what kind, beans\u002Flegumes, bread, etc) : ","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"pleaseList","qid":"67","subLabel":"","text":"Please list fat sources you DON'T like ( i.e., almonds, peanuts, almond butter, peanut butter, chia seeds, olive oil, macadamia nut oil, cheese, avocado, ghee\u002Fbutter, etc.","type":"control_textarea","wysiwyg":"Disable"},{"description":"","name":"typeA68","qid":"68","text":"On a scale of 1-5, what is your relationship with food like?","type":"control_scale"},{"description":"","name":"onA","qid":"69","text":"On a scale of 1-5, what is your relationship with weighing yourself like?","type":"control_scale"},{"description":"","mde":"No","name":"whatDo70","qid":"70","subLabel":"","text":"Goals","type":"control_textarea","wysiwyg":"Disable"},null,{"description":"","mde":"No","name":"longTerm","qid":"72","subLabel":"","text":"How many days a week do you currently train (strength training) and for how long (on average) ?","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"howMany","qid":"73","subLabel":"","text":"What is your current training split\u002Fregimen?","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"whatIs","qid":"74","subLabel":"","text":"How many days do you currently do cardiovascular activities and for how long? ( i.e., elliptical, treadmill, spin bike, etc., or HIIT\u002FCircuit style training\u002Fcrossfit) ","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"whatAre","qid":"75","subLabel":"","text":"What are your specific training goals? ( i.e. gain strength, lose body fat, increase endurance, improve overall health\u002Fcardiovascular health, improve functional performance, or division specific for bodybuilding) ","type":"control_textarea","wysiwyg":"Disable"},null,{"description":"","name":"whichOne","qid":"77","text":"Which one describes your daily activity level the best?","type":"control_radio"},{"description":"","mde":"No","name":"whatIs78","qid":"78","subLabel":"","text":"What is your current occupation? ","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"doYou79","qid":"79","subLabel":"","text":"Do you have any health limitations your coach should be aware of ( i.e., injuries, food, allergies, doctor's orders, etc.)?","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"areYou","qid":"80","subLabel":"","text":"Are you currently on any medications or have any medical issues that I need to be aware of ( that may impact activity or nutrition)? Please list all current medications, supplements, vitamins, etc., below For each one:Supplement:Dosage:Frequency:Reason:","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"womenOnly","qid":"81","subLabel":"","text":"Women only: Are you currently on birth control? Please list the brand\u002Ftype (IUD,pill, etc.).If you are currently using birth control, how long have you been using it for?If you recently came off of birth control, please give a breakdown of your BC\u002FIUDhistory.","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"whatIs82","qid":"82","subLabel":"","text":"What is your best guess at your CURRENT daily caloric intake and HOW LONG have you been eating this amount? Are you currently gaining, losing or maintaining.on this amount?","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"pleaseList83","qid":"83","subLabel":"","text":"Please list protein sources you DON'T like ( i.e., chicken. eggs\u002F egg whites, turkey, fish -- what kind, beef, pork, greek yogurt, whey\u002Fsoy powder, etc):","type":"control_textarea","wysiwyg":"Disable"}]);}, 20); 
-  </script>
-  <link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/stylebuilder/static/form-common.css?v=18cfc0e
-  "/>
-  <style type="text/css">@media print{*{-webkit-print-color-adjust: exact !important;color-adjust: exact !important;}.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
-  <link id="custom-font" type="text/css" rel="stylesheet" href="//cdn.jotfor.ms/fonts/?family=PT+Serif" />
-  <link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.51744&themeRevisionID=65660e4b326633110492e01a"/>
-  <link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_styles.css?3.3.51744" />
-  <link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_feature.css?3.3.51744" />
-  <link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/stylebuilder/static/donationBox.css?v=3.3.51744">
-  <style type="text/css" id="form-designer-style">
-      /* Injected CSS Code */
-  /*PREFERENCES STYLE*/
-    /* NEW THEME STYLE */
-  
- 
-body {
-      background-color: black !important;
-    }
+ <script src="https://cdn02.jotfor.ms/static/prototype.forms.js?v=3.3.54362" type="text/javascript"></script>
+<script src="https://cdn03.jotfor.ms/static/jotform.forms.js?v=3.3.54362" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/js/punycode-1.4.1.min.js?v=3.3.54362" type="text/javascript" defer></script>
+<script src="https://cdn02.jotfor.ms/js/vendor/maskedinput_5.0.9.min.js?v=3.3.54362" type="text/javascript"></script>
+<script src="https://cdn03.jotfor.ms/js/paypal.js?v=3.3.54362" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/js/payments/paymentUtils.js?v=3.3.54362" type="text/javascript"></script>
+<script src="https://cdn02.jotfor.ms/js/payments/validategateways.js?v=3.3.54362" type="text/javascript"></script>
+<script src="https://cdn03.jotfor.ms/js/vendor/smoothscroll.min.js?v=3.3.54362" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/js/errorNavigation.js?v=3.3.54362" type="text/javascript"></script>
+<script type="text/javascript">	JotForm.newDefaultTheme = true;
+	JotForm.extendsNewTheme = false;
+	JotForm.singleProduct = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+	JotForm.texts = {"confirmEmail":"E-mail does not match","pleaseWait":"Please wait...","validateEmail":"You need to validate this e-mail","confirmClearForm":"Are you sure you want to clear the form","lessThan":"Your score should be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","required":"This field is required.","requireOne":"At least one field required.","requireEveryRow":"Every row is required.","requireEveryCell":"Every cell is required.","email":"Enter a valid e-mail address","alphabetic":"This field can only contain letters","numeric":"This field can only contain numeric values","alphanumeric":"This field can only contain letters and numbers.","cyrillic":"This field can only contain cyrillic characters","url":"This field can only contain a valid URL","currency":"This field can only contain currency values.","fillMask":"Field value must fill mask.","uploadExtensions":"You can only upload following files:","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","gradingScoreError":"Score total should only be less than or equal to","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","maxDigitsError":"The maximum digits allowed is","minCharactersError":"The number of characters should not be less than the minimum value:","maxCharactersError":"The number of characters should not be more than the maximum value:","freeEmailError":"Free email accounts are not allowed","minSelectionsError":"The minimum required number of selections is ","maxSelectionsError":"The maximum number of selections allowed is ","pastDatesDisallowed":"Date must not be in the past.","dateLimited":"This date is unavailable.","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","ageVerificationError":"You must be older than {minAge} years old to submit this form.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","chooseAFile_infoMessage":"Choose a file","maxFileSize_infoMessage":"Max. file size","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","ccInvalidNumber":"Credit Card Number is invalid.","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingProduct":"Please select at least one product.","ccMissingDonation":"Please enter numeric values for donation amount.","disallowDecimals":"Please enter a whole number.","restrictedDomain":"This domain is not allowed","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","requiredLegend":"All fields marked with * are required and must be filled.","geoPermissionTitle":"Permission Denied","geoPermissionDesc":"Check your browser's privacy settings.","geoNotAvailableTitle":"Position Unavailable","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoTimeoutTitle":"Timeout","geoTimeoutDesc":"Please check your internet connection and try again.","selectedTime":"Selected Time","formerSelectedTime":"Former Time","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","noSlotsAvailable":"No slots available","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","multipleError":"There are {count} errors on this page. Please correct them before moving on.","oneError":"There is {count} error on this page. Please correct it before moving on.","doneMessage":"Well done! All errors are fixed.","invalidTime":"Enter a valid time","doneButton":"Done","reviewSubmitText":"Review and Submit","nextButtonText":"Next","prevButtonText":"Previous","seeErrorsButton":"See Errors","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","soldOut":"Sold Out","justSoldOut":"Just Sold Out","selectionSoldOut":"Selection Sold Out","subProductItemsLeft":"({count} items left)","startButtonText":"START","submitButtonText":"Submit","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","reviewBackText":"Back to Form","seeAllText":"See All","progressMiddleText":"of","fieldError":"field has an error.","error":"Error"};
+	JotForm.newPaymentUI = true;
+	JotForm.replaceTagTest = true;
+
+   JotForm.setConditions([{"action":[{"id":"action_1704833600459","visibility":"HideMultiple","isError":false,"fields":["38","57","40","41","42","43","65","45","47","77","78","70","71","72","73","74","75","76","48","49","66","67","83","82","68","69","50","51","80","81","79"]},{"id":"action_1704833546280","visibility":"Hide","isError":false,"field":"53"},{"id":"action_2_1704833525008","visibility":"Hide","isError":false,"field":"26"}],"id":"1704828066504","index":"0","link":"Any","priority":"0","terms":[{"id":"term_0_1704833525007","field":"6","operator":"equals","value":"1030","isError":false}],"type":"field"}]);	JotForm.submitError="jumpToFirstError";
+	JotForm.isFullSource = true;
+
+	JotForm.init(function(){
+	/*INIT-START*/
+      JotForm.setPhoneMaskingValidator( 'input_40_full', '\u0028\u0023\u0023\u0023\u0029 \u0023\u0023\u0023\u002d\u0023\u0023\u0023\u0023' );
+if (window.JotForm && JotForm.accessible) $('input_41').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_65').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_45').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_78').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_70').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_72').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_73').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_74').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_75').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_49').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_66').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_67').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_83').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_82').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_50').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_51').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_80').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_81').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_79').setAttribute('tabindex',0);
+      productID = {"0":"input_6_1013","1":"input_6_1034","2":"input_6_1015","3":"input_6_1031","4":"input_6_1016","5":"input_6_1032","6":"input_6_1030"};
+      paymentType = "subscription";
+      JotForm.setCurrencyFormat('USD',true, 'point');
+      JotForm.totalCounter({"input_6_1013":{"price":"199.97","recurrence_interval":"MONTH","recurrence_unit":1,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1034":{"price":"249.96","recurring":"199.97","firstPaymentVal":"249.96","customFirstPaymentPrice":"0","recurrence_interval":"MONTH","recurrence_unit":1,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1015":{"price":"569.91","recurrence_interval":"MONTH","recurrence_unit":3,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1031":{"price":"619.90","recurring":"569.91","firstPaymentVal":"619.90","customFirstPaymentPrice":"0","recurrence_interval":"MONTH","recurrence_unit":3,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1016":{"price":"1079.94","recurrence_interval":"MONTH","recurrence_unit":6,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1032":{"price":"1129.93","recurring":"1079.94","firstPaymentVal":"1129.93","customFirstPaymentPrice":"0","recurrence_interval":"MONTH","recurrence_unit":6,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"No Limit"},"input_6_1030":{"price":"49.99","recurrence_interval":"YEAR","recurrence_unit":2,"first_interval":"MONTH","first_unit":1,"trial_interval":"DAY","trial_unit":0,"recurringtimes":"1"}});
+      $$('.form-product-custom_quantity').each(function(el, i){el.observe('blur', function(){isNaN(this.value) || this.value < 1 ? this.value = '0' : this.value = parseInt(this.value)})});
+      $$('.form-product-custom_quantity').each(function(el, i){el.observe('focus', function(){this.value == 0 ? this.value = '' : this.value})});
+      JotForm.handleProductLightbox();
+      JotForm.alterTexts({"ageVerificationError":"You must be older than {minAge} years old to submit this form.","alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccInvalidNumber":"Credit Card Number is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Please enter numeric values for donation amount.","ccMissingProduct":"Please select at least one product.","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","chooseAFile_infoMessage":"Choose a file","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","currency":"This field can only contain currency values.","cyrillic":"This field can only contain cyrillic characters","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","dateLimited":"This date is unavailable.","disallowDecimals":"Please enter a whole number.","doneButton":"Done","doneMessage":"Well done! All errors are fixed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","email":"Enter a valid e-mail address","error":"Error","fieldError":"field has an error.","fillMask":"Field value must fill mask.","formerSelectedTime":"Former Time","freeEmailError":"Free email accounts are not allowed","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoNotAvailableTitle":"Position Unavailable","geoPermissionDesc":"Check your browser's privacy settings.","geoPermissionTitle":"Permission Denied","geoTimeoutDesc":"Please check your internet connection and try again.","geoTimeoutTitle":"Timeout","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","invalidTime":"Enter a valid time","justSoldOut":"Just Sold Out","lessThan":"Your score should be less than or equal to","maxCharactersError":"The number of characters should not be more than the maximum value:","maxDigitsError":"The maximum digits allowed is","maxFileSize_infoMessage":"Max. file size","maxSelectionsError":"The maximum number of selections allowed is ","minCharactersError":"The number of characters should not be less than the minimum value:","minSelectionsError":"The minimum required number of selections is ","multipleError":"There are {count} errors on this page. Please correct them before moving on.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","nextButtonText":"Next","noSlotsAvailable":"No slots available","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"This field can only contain numeric values","oneError":"There is {count} error on this page. Please correct it before moving on.","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Please wait...","prevButtonText":"Previous","progressMiddleText":"of","required":"This field is required.","requiredLegend":"All fields marked with * are required and must be filled.","requireEveryCell":"Every cell is required.","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","restrictedDomain":"This domain is not allowed","reviewBackText":"Back to Form","reviewSubmitText":"Review and Submit","seeAllText":"See All","seeErrorsButton":"See Errors","selectedTime":"Selected Time","selectionSoldOut":"Selection Sold Out","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","soldOut":"Sold Out","startButtonText":"START","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","submitButtonText":"Submit","subProductItemsLeft":"({count} items left)","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","url":"This field can only contain a valid URL","validateEmail":"You need to validate this e-mail","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is"});
+      JotForm.alterTexts(undefined, true);
+	/*INIT-END*/
+	});
+
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"Continue To Checkout","type":"control_button"},null,null,null,{"description":"","name":"signMe6","qid":"6","text":"Select the coach and plan you will be working with","type":"control_paypal"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"ltpStyletextaligncentergtltstronggtcompany","qid":"26","text":"Limitless Physiques\r\nFirst and foremost, when you are accepted, and we enter into this coach-team member relationship, we have your best interest in mind always.\r\nWe are supportive and honest coaches. We expect you to give us matched efforts within your journey ahead.","type":"control_text"},{"name":"lth3gtfirstAnd","qid":"27","text":"You will have access to the following:\r\nComplete nutrition recommendations for both off-season, contest prep, and lifestyle with changes made as much as needed.\r\nComplete supplement recommendations for both off-season, contest prep and lifestyle with changes made as needed, focusing on performance and health optimization.\r\nThorough weekly evaluations of your check ins where your entire check in is assessed and changes are made as needed.\r\nUnlimited Whatsapp access during normal business days.Unlimited Instagram (Team_LMTLS) access during normal business days.\r\n12 week long training programs for an additional cost of $49.99 (see packages below)\r\nBusiness Hours:Monday - Check In Day \u002F Full CommunicationTuesday - Check In Day \u002F Full CommunicationWednesday - Family Day (Emergency Only)Thursday - Family Day (Emergency Only)Friday - Check In Day \u002F Full CommunicationSaturday - Show Day \u002F Travel Day \u002F Delayed Full CommunicationSunday - Check In Day \u002F Full Communication\r\n ","type":"control_text"},null,{"name":"lth2gtyouWill","qid":"29","text":"What Team Limitless Physiques Expects from You.\r\nAs your coaches, all we ask is that you give 100% effort to the plan and consistency within the variables that are laid out for you.\r\nIt is your responsibility to check in each week on time (before 8:00AM EST) and on your respective check in day (assigned by your coach). Set a timer on your phone, if needed, until this becomes second nature.\r\nHonest and thorough check-ins are necessary for your coach to properly coach you towards your goals. Answer each check in question in full without including unnecessary information.We will always give you 100%, so we expect your 100% effort in return.\r\n ","type":"control_text"},{"name":"lth2gtyouWill30","qid":"30","text":"Liability:\r\nI hereby assume full responsibility for any results, injuries, losses and damages incurred while participating in any Limitless Physiques program. I hereby waive all claims against Limitless, its agents, its employees for any and all injuries, claims or damages that I may incur.","type":"control_text"},null,null,null,null,{"description":"","name":"name","qid":"35","text":"Name","type":"control_fullname"},null,{"description":"","name":"email","qid":"37","subLabel":"example@example.com","text":"Email","type":"control_email"},{"name":"lth2gtliabilitylth2gtltpgti","qid":"38","text":"Please agree below if you fully understand what is expected from coach to team member and from team member to coach.","type":"control_text"},null,{"description":"","name":"phoneNumber","qid":"40","text":"Phone Number","type":"control_phone"},{"description":"","name":"instagramHandle","qid":"41","subLabel":"","text":"Instagram Handle","type":"control_textbox"},{"description":"","name":"age","qid":"42","subLabel":"","text":"Age","type":"control_number"},{"description":"","name":"height","qid":"43","subLabel":"","text":"Height ( Inches ) ","type":"control_number"},null,{"description":"","name":"typeA45","qid":"45","subLabel":"","text":"Gender","type":"control_textbox"},null,null,{"description":"","name":"whatType","qid":"48","subLabel":"","text":"What type of plan would you prefer?","type":"control_dropdown"},{"description":"","mde":"No","name":"whatDo49","qid":"49","subLabel":"","text":"If you selected \"Strict Plan\" please list foods you are allergic to. If none type N\u002FA :","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"ifYou","qid":"50","subLabel":"","text":"If taking any over the counter supplements \u002F vitamins please list below:","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"ifTaking","qid":"51","subLabel":"","text":"If taking any super supplementation\u002FPEDs please list below dosages per week \u002F length of time. Also list the goal with this supplementation. If not type N\u002FA:","type":"control_textarea","wysiwyg":"Disable"},null,{"description":"","name":"typeA","qid":"53","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},{"description":"","name":"byChecking","qid":"54","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},{"description":"","name":"byChecking55","qid":"55","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},{"description":"","name":"byChecking56","qid":"56","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},{"description":"","name":"byChecking57","qid":"57","text":"By checking this box you are confirming you have read and acknowledged the above statements.","type":"control_radio"},null,null,null,null,null,null,null,{"description":"","name":"weight","qid":"65","subLabel":"","text":"Weight ","type":"control_textbox"},{"description":"","mde":"No","name":"ifYou66","qid":"66","subLabel":"","text":"Please list carb sources you DON'T like ( i.e., sweet potato, white potato, jasmine, rice, cream of rice, oats, cereals, quinoa, fruit -- what kind, beans\u002Flegumes, bread, etc) : ","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"pleaseList","qid":"67","subLabel":"","text":"Please list fat sources you DON'T like ( i.e., almonds, peanuts, almond butter, peanut butter, chia seeds, olive oil, macadamia nut oil, cheese, avocado, ghee\u002Fbutter, etc.","type":"control_textarea","wysiwyg":"Disable"},{"description":"","name":"typeA68","qid":"68","text":"On a scale of 1-5, what is your relationship with food like?","type":"control_scale"},{"description":"","name":"onA","qid":"69","text":"On a scale of 1-5, what is your relationship with weighing yourself like?","type":"control_scale"},{"description":"","mde":"No","name":"whatDo70","qid":"70","subLabel":"","text":"Goals","type":"control_textarea","wysiwyg":"Disable"},null,{"description":"","mde":"No","name":"longTerm","qid":"72","subLabel":"","text":"How many days a week do you currently train (strength training) and for how long (on average) ?","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"howMany","qid":"73","subLabel":"","text":"What is your current training split\u002Fregimen?","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"whatIs","qid":"74","subLabel":"","text":"How many days do you currently do cardiovascular activities and for how long? ( i.e., elliptical, treadmill, spin bike, etc., or HIIT\u002FCircuit style training\u002Fcrossfit) ","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"whatAre","qid":"75","subLabel":"","text":"What are your specific training goals? ( i.e. gain strength, lose body fat, increase endurance, improve overall health\u002Fcardiovascular health, improve functional performance, or division specific for bodybuilding) ","type":"control_textarea","wysiwyg":"Disable"},null,{"description":"","name":"whichOne","qid":"77","text":"Which one describes your daily activity level the best?","type":"control_radio"},{"description":"","mde":"No","name":"whatIs78","qid":"78","subLabel":"","text":"What is your current occupation? ","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"doYou79","qid":"79","subLabel":"","text":"Do you have any health limitations your coach should be aware of ( i.e., injuries, food, allergies, doctor's orders, etc.)?","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"areYou","qid":"80","subLabel":"","text":"Are you currently on any medications or have any medical issues that I need to be aware of ( that may impact activity or nutrition)? Please list all current medications, supplements, vitamins, etc., below For each one:Supplement:Dosage:Frequency:Reason:","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"womenOnly","qid":"81","subLabel":"","text":"Women only: Are you currently on birth control? Please list the brand\u002Ftype (IUD,pill, etc.).If you are currently using birth control, how long have you been using it for?If you recently came off of birth control, please give a breakdown of your BC\u002FIUDhistory.","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"whatIs82","qid":"82","subLabel":"","text":"What is your best guess at your CURRENT daily caloric intake and HOW LONG have you been eating this amount? Are you currently gaining, losing or maintaining.on this amount?","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"pleaseList83","qid":"83","subLabel":"","text":"Please list protein sources you DON'T like ( i.e., chicken. eggs\u002F egg whites, turkey, fish -- what kind, beef, pork, greek yogurt, whey\u002Fsoy powder, etc):","type":"control_textarea","wysiwyg":"Disable"}]);}, 20); 
+</script>
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/stylebuilder/static/form-common.css?v=7d9697a
+"/>
+<style type="text/css">@media print{*{-webkit-print-color-adjust: exact !important;color-adjust: exact !important;}.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
+<link id="custom-font" type="text/css" rel="stylesheet" href="//cdn.jotfor.ms/fonts/?family=PT+Serif" />
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.54362&themeRevisionID=65660e4b326633110492e01a"/>
+<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_styles.css?3.3.54362" />
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_feature.css?3.3.54362" />
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+/*PREFERENCES STYLE*/
+  /* NEW THEME STYLE */
+
+  /* colors */
 
   .calendar-new-header-withSVG .calendar-new-header .nextYear svg,
   .calendar-new-header-withSVG .calendar-new-header .nextMonth svg,
@@ -370,12 +366,12 @@ body {
 
   /* button colors */
   .submit-button {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #18BD5B;
+    border-color: #18BD5B;
   }
   .submit-button:hover {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #16AA52;
+    border-color: #16AA52;
   }
   .form-pagebreak-next,
   .form-pagebreak-back {
@@ -452,9 +448,15 @@ body {
   .appointmentDayPickerButton {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDggMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDEzTDcgN0wxIDAuOTk5OTk5IiBzdHJva2U9IiM4Nzk1QUMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=);
   }
-/*form font*/
+
+  /* NEW THEME STYLE */
+  /*PREFERENCES STYLE*/
+/* Begining of advanced designer */
+/*PREFERENCES STYLE*/
+/*  1 - Preferences style */
+/*  1 - FONT FAMILY */
 .form-all {
-  font-family: 'Rockwell', serif;
+  font-family: "PT Serif", sans-serif;
 }
 /* 2 - FORM WIDTH */
 .form-all {
@@ -611,7 +613,7 @@ li[data-type="control_signature"] div[data-layout="half"] {
 }
 .form-all .form-pagebreak-back,
 .form-all .form-pagebreak-next {
-  font-family: 'Rockwell', serif;
+  font-family: "PT Serif", sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
@@ -648,7 +650,6 @@ li[data-type="control_image"] img {
   background-attachment: scroll;
   background-position: center top;
   background-size: cover;
-  font-family: 'Rockwell', serif;
 }
 .form-header-group {
   background-repeat: no-repeat;
@@ -657,81 +658,63 @@ li[data-type="control_image"] img {
 }
 .header-large h1.form-header {
   font-size: 2em;
-  font-family: 'Rockwell', serif;
 }
 .header-large h2.form-header {
   font-size: 1.5em;
-  font-family: 'Rockwell', serif;
 }
 .header-large h3.form-header {
   font-size: 1.17em;
-  font-family: 'Rockwell', serif;
 }
 .header-large h1 + .form-subHeader {
   font-size: 1em;
-  font-family: 'Rockwell', serif;
 }
 .header-large h2 + .form-subHeader {
   font-size: .875em;
-  font-family: 'Rockwell', serif;
 }
 .header-large h3 + .form-subHeader {
   font-size: .75em;
-font-family: 'Rockwell', serif;
 }
 .header-default h1.form-header {
   font-size: 2em;
-  font-family: 'Rockwell', serif;
 }
 .header-default h2.form-header {
   font-size: 1.5em;
-font-family: 'Rockwell', serif;
 }
 .header-default h3.form-header {
   font-size: 1.17em;
-	font-family: 'Rockwell', serif;
 }
 .header-default h1 + .form-subHeader {
   font-size: 1em;
-	font-family: 'Rockwell', serif;
 }
 .header-default h2 + .form-subHeader {
   font-size: .875em;
-	font-family: 'Rockwell', serif;
 }
 .header-default h3 + .form-subHeader {
   font-size: .75em;
-	font-family: 'Rockwell', serif;
 }
 .header-small h1.form-header {
   font-size: 2em;
-	font-family: 'Rockwell', serif;
 }
 .header-small h2.form-header {
   font-size: 1.5em;
-	font-family: 'Rockwell', serif;
 }
 .header-small h3.form-header {
   font-size: 1.17em;
-	font-family: 'Rockwell', serif;
 }
 .header-small h1 + .form-subHeader {
   font-size: 1em;
-	font-family: 'Rockwell', serif;
 }
 .header-small h2 + .form-subHeader {
   font-size: .875em;
-	font-family: 'Rockwell', serif;
 }
 .header-small h3 + .form-subHeader {
   font-size: .75em;
-	font-family: 'Rockwell', serif;
 }
 .form-header-group {
   text-align: left;
 }
 .form-header-group {
-  font-family: 'Rockwell', serif;
+  font-family: "Times New Roman", sans-serif;
 }
 div.form-header-group.header-large,
 div.form-header-group.hasImage {
@@ -746,7 +729,7 @@ div.form-header-group.hasImage {
   color: #000000;
 }
 .form-header-group {
-  background-color: black ;
+  background-color: ;
 }
 .form-line-error {
   -webkit-transition-property: none;
@@ -826,407 +809,377 @@ div.form-header-group.hasImage {
 
     /* Injected CSS Code */
 </style>
-<body>
-<div class="container-fluid top-bar bg-dark text-light px-2 py-2 wow fadeIn" data-wow-delay="0.1s">
-  <div class="row align-items-center">
-      <div class="col-md-6 col-sm-6 text-start bg-dark text-white">
-          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-              <!-- Toggler/collapsible Button -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-             <!-- Navbar links -->
-             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                  <li class="nav-item" style="padding-left: 20px;">
-                      <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle no-arrow" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-left:20px;">
-                          Coaches
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="Bizzer.html">Bizzer Gahagan</a>
-                          <a class="dropdown-item" href="Brian.html">Brian Spafford</a>
-                          <a class="dropdown-item" href="Cody.html">Cody Nery</a>
-                          <a class="dropdown-item" href="Kyle.html">Kyle Rose</a>
-                      </div>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" style="padding-left:20px" href="about.html">About Us</a>
-                  </li>
-              </ul>
-          </div>        
-      </nav>
-  </div>
-</div>
-</div>
 
-  
-  <form class="jotform-form" onsubmit="return typeof testSubmitFunction !== 'undefined' && testSubmitFunction();" action="https://submit.jotform.com/submit/240553490027149" method="post" name="form_240553490027149" id="240553490027149" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="240553490027149" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" /><input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1708907326311" /><input type="hidden" id="submitSource" name="submitSource" value="unknown" /><input type="hidden" id="buildDate" name="buildDate" value="1708907326311" />
-    <div id="formCoverLogo" style="margin-bottom:32px" class="form-cover-wrapper form-has-cover form-page-cover-image-align-center">
-      <div class="form-page-cover-image-wrapper" style="max-width:700px"><img src="https://www.jotform.com/uploads/reikobbe/form_files/LMTS.659dad4dd7b416.95900586.jpg" class="form-page-cover-image" width="140" aria-label="Form Logo" style="aspect-ratio:140/140" /></div>
-    </div>
-<div role="main" class="form-all">
-  <ul class="form-section page-section">
-    <li class="form-line form-field-hidden" style="display:none;" data-type="control_text" id="id_26">
-      <div id="cid_26" class="form-input-wide" data-layout="full">
-        <div id="text_26" class="form-html" data-component="text" tabindex="0">
-          <h1> </h1><br><br>
-          <h3 style="font-family: 'Rockwell', serif !important;">First and foremost, when you are accepted, and we enter into this coach-team member relationship, we have your best interest in mind always.</h3>
-          <h3 style="font-family: 'Rockwell', serif !important;">We are supportive and honest coaches. We expect you to give us matched efforts within your journey ahead.</h3>
-    <br>
-    <p><b>If you are only interested in purchasing a workout program</b> scroll to the bottom and select “Workout Program (12 Week Long Phase)”. Then proceed to check out. <b>Do not fill out application.</b></p>
-          <h3></h3>
+<form class="jotform-form" onsubmit="return typeof testSubmitFunction !== 'undefined' && testSubmitFunction();" action="https://submit.jotform.com/submit/240553490027149" method="post" name="form_240553490027149" id="240553490027149" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="240553490027149" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" /><input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1717004481337" /><input type="hidden" id="submitSource" name="submitSource" value="unknown" /><input type="hidden" id="buildDate" name="buildDate" value="1717004481337" />
+  <div id="formCoverLogo" style="margin-bottom:32px" class="form-cover-wrapper form-has-cover form-page-cover-image-align-center">
+    <div class="form-page-cover-image-wrapper" style="max-width:700px"><img src="https://www.jotform.com/uploads/reikobbe/form_files/LMTS.659dad4dd7b416.95900586.jpg" class="form-page-cover-image" width="140" height="140" aria-label="Form Logo" style="aspect-ratio:140/140" /></div>
+  </div>
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li class="form-line form-field-hidden" style="display:none;" data-type="control_text" id="id_26">
+        <div id="cid_26" class="form-input-wide" data-layout="full">
+          <div id="text_26" class="form-html" data-component="text" tabindex="0">
+            <h1>Limitless Physiques</h1>
+            <h3>First and foremost, when you are accepted, and we enter into this coach-team member relationship, we have your best interest in mind always.</h3>
+            <h3>We are supportive and honest coaches. We expect you to give us matched efforts within your journey ahead.</h3>
+          </div>
         </div>
-      </div>
-    </li>
-<li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_radio" id="id_53"><label class="form-label form-label-top form-label-auto" id="label_53" aria-hidden="false"> By checking this box you are confirming you have read and acknowledged the above statements.<span class="form-required">*</span> </label>
-      <div id="cid_53" class="form-input-wide jf-required" data-layout="full">
-        <div class="form-single-column" role="group" aria-labelledby="label_53" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_53" class="form-radio validate[required]" id="input_53_0" name="q53_typeA" value="I agree" required="" /><label id="label_input_53_0" for="input_53_0">I agree</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_53" class="form-radio validate[required]" id="input_53_1" name="q53_typeA" value="I disagree" required="" /><label id="label_input_53_1" for="input_53_1">I disagree</label></span></div>
-      </div>
-    </li>
-    <li class="form-line" data-type="control_text" id="id_27">
-      <div id="cid_27" class="form-input-wide" data-layout="full">
-        <div id="text_27" class="form-html" data-component="text" tabindex="0">
-          <h2 style="font-family: 'Rockwell', serif !important; margin-top: 20px;">You will have access to the following:</h2>
-          <p>Complete nutrition recommendations for both off-season, contest prep, and lifestyle with changes made as much as needed.</p>
-          <p>Complete supplement recommendations for both off-season, contest prep and lifestyle with changes made as needed, focusing on performance and health optimization.</p>
-          <p>Thorough weekly evaluations of your check ins where your entire check in is assessed and changes are made as needed.</p>
-          <p>Unlimited Whatsapp access during normal business days.<br />Unlimited Instagram (Team_LMTLS) access during normal business days.</p>
-          <p>12 week long training programs for an additional cost of $49.99 (see packages below)</p>
-          <p>Business Hours:<br />Monday - Check In Day / Full Communication<br />Tuesday - Check In Day / Full Communication<br />Wednesday - Family Day (Emergency Only)<br />Thursday - Family Day (Emergency Only)<br />Friday - Check In Day / Full Communication<br />Saturday - Show Day / Travel Day / Delayed Full Communication<br />Sunday - Check In Day / Full Communication</p>
-          <p> </p>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_radio" id="id_53"><label class="form-label form-label-top form-label-auto" id="label_53" aria-hidden="false"> By checking this box you are confirming you have read and acknowledged the above statements.<span class="form-required">*</span> </label>
+        <div id="cid_53" class="form-input-wide jf-required" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_53" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_53" class="form-radio validate[required]" id="input_53_0" name="q53_typeA" value="I agree" required="" /><label id="label_input_53_0" for="input_53_0">I agree</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_53" class="form-radio validate[required]" id="input_53_1" name="q53_typeA" value="I disagree" required="" /><label id="label_input_53_1" for="input_53_1">I disagree</label></span></div>
         </div>
-      </div>
-    </li>
-    <li class="form-line jf-required" data-type="control_radio" id="id_54"><label class="form-label form-label-top form-label-auto" id="label_54" aria-hidden="false"> By checking this box you are confirming you have read and acknowledged the above statements.<span class="form-required">*</span> </label>
-      <div id="cid_54" class="form-input-wide jf-required" data-layout="full">
-        <div class="form-single-column" role="group" aria-labelledby="label_54" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_54" class="form-radio validate[required]" id="input_54_0" name="q54_byChecking" value="I agree" required="" /><label id="label_input_54_0" for="input_54_0">I agree</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_54" class="form-radio validate[required]" id="input_54_1" name="q54_byChecking" value="I disagree" required="" /><label id="label_input_54_1" for="input_54_1">I disagree</label></span></div>
-      </div>
-    </li>
-    <li class="form-line" data-type="control_text" id="id_29">
-      <div id="cid_29" class="form-input-wide" data-layout="full">
-        <div id="text_29" class="form-html" data-component="text" tabindex="0">
-          <h2 style="font-family: 'Rockwell', serif !important; margin-top: 20px;">What Team Limitless Physiques Expects from <strong>You.</strong></h2>
-          <p>As your coaches, all we ask is that <strong>you give 100% effort</strong> to the plan and consistency within the variables that are laid out for you.</p>
-          <p>It is your <strong>responsibility</strong> to <strong>check in each week on time (before 8:00AM EST)</strong> and on your respective check in day (assigned by your coach). Set a timer on your phone, if needed, until this becomes second nature.</p>
-          <p><strong>Honest</strong> and <strong>thorough</strong> check-ins are necessary for your coach to properly coach you towards your goals. Answer each check in question <strong>in full</strong> without including unnecessary information.<br />We will <strong>always give you 100%</strong>, so we expect your 100% effort in return.</p>
-          <p> </p>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_27">
+        <div id="cid_27" class="form-input-wide" data-layout="full">
+          <div id="text_27" class="form-html" data-component="text" tabindex="0">
+            <h2>You will have access to the following:</h2>
+            <p>Complete nutrition recommendations for both off-season, contest prep, and lifestyle with changes made as much as needed.</p>
+            <p>Complete supplement recommendations for both off-season, contest prep and lifestyle with changes made as needed, focusing on performance and health optimization.</p>
+            <p>Thorough weekly evaluations of your check ins where your entire check in is assessed and changes are made as needed.</p>
+            <p>Unlimited Whatsapp access during normal business days.<br />Unlimited Instagram (Team_LMTLS) access during normal business days.</p>
+            <p>12 week long training programs for an additional cost of $49.99 (see packages below)</p>
+            <p>Business Hours:<br />Monday - Check In Day / Full Communication<br />Tuesday - Check In Day / Full Communication<br />Wednesday - Family Day (Emergency Only)<br />Thursday - Family Day (Emergency Only)<br />Friday - Check In Day / Full Communication<br />Saturday - Show Day / Travel Day / Delayed Full Communication<br />Sunday - Check In Day / Full Communication</p>
+            <p> </p>
+          </div>
         </div>
-      </div>
-    </li>
-    <li class="form-line jf-required" data-type="control_radio" id="id_55"><label class="form-label form-label-top form-label-auto" id="label_55" aria-hidden="false"> By checking this box you are confirming you have read and acknowledged the above statements.<span class="form-required">*</span> </label>
-      <div id="cid_55" class="form-input-wide jf-required" data-layout="full">
-        <div class="form-single-column" role="group" aria-labelledby="label_55" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_55" class="form-radio validate[required]" id="input_55_0" name="q55_byChecking55" value="I agree" required="" /><label id="label_input_55_0" for="input_55_0">I agree</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_55" class="form-radio validate[required]" id="input_55_1" name="q55_byChecking55" value="I disagree" required="" /><label id="label_input_55_1" for="input_55_1">I disagree</label></span></div>
-      </div>
-    </li>
-    <li class="form-line" data-type="control_text" id="id_30">
-      <div id="cid_30" class="form-input-wide" data-layout="full">
-        <div id="text_30" class="form-html" data-component="text" tabindex="0">
-          <h2 style="font-family: 'Rockwell', serif !important;margin-top: 20px;">Liability:</h2>
-          <p>I hereby assume full responsibility for any results, injuries, losses and damages incurred while participating in any Limitless Physiques program. I hereby waive all claims against Limitless, its agents, its employees for any and all injuries, claims or damages that I may incur.</p>
+      </li>
+      <li class="form-line jf-required" data-type="control_radio" id="id_54"><label class="form-label form-label-top form-label-auto" id="label_54" aria-hidden="false"> By checking this box you are confirming you have read and acknowledged the above statements.<span class="form-required">*</span> </label>
+        <div id="cid_54" class="form-input-wide jf-required" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_54" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_54" class="form-radio validate[required]" id="input_54_0" name="q54_byChecking" value="I agree" required="" /><label id="label_input_54_0" for="input_54_0">I agree</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_54" class="form-radio validate[required]" id="input_54_1" name="q54_byChecking" value="I disagree" required="" /><label id="label_input_54_1" for="input_54_1">I disagree</label></span></div>
         </div>
-      </div>
-    </li>
-    <li class="form-line jf-required" data-type="control_radio" id="id_56"><label class="form-label form-label-top form-label-auto" id="label_56" aria-hidden="false"> By checking this box you are confirming you have read and acknowledged the above statements.<span class="form-required">*</span> </label>
-      <div id="cid_56" class="form-input-wide jf-required" data-layout="full">
-        <div class="form-single-column" role="group" aria-labelledby="label_56" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_56" class="form-radio validate[required]" id="input_56_0" name="q56_byChecking56" value="I agree" required="" /><label id="label_input_56_0" for="input_56_0">I agree</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_56" class="form-radio validate[required]" id="input_56_1" name="q56_byChecking56" value="I disagree" required="" /><label id="label_input_56_1" for="input_56_1">I disagree</label></span></div>
-      </div>
-    </li>
-    <li class="form-line jf-required" data-type="control_fullname" id="id_35"><label class="form-label form-label-top form-label-auto" id="label_35" for="first_35" aria-hidden="false"><br> Name<span class="form-required">*</span> </label>
-      <div id="cid_35" class="form-input-wide jf-required" data-layout="full">
-        <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="first"><input type="text" id="first_35" name="q35_name[first]" class="form-textbox validate[required]" data-defaultvalue="" size="10" data-component="first" aria-labelledby="label_35 sublabel_35_first" required="" value="" /><label class="form-sub-label" for="first_35" id="sublabel_35_first" style="min-height:13px">First Name</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="last"><input type="text" id="last_35" name="q35_name[last]" class="form-textbox validate[required]" data-defaultvalue="" size="15" data-component="last" aria-labelledby="label_35 sublabel_35_last" required="" value="" /><label class="form-sub-label" for="last_35" id="sublabel_35_last" style="min-height:13px">Last Name</label></span></div>
-      </div>
-    </li>
-    <li class="form-line jf-required" data-type="control_email" id="id_37"><label class="form-label form-label-top form-label-auto" id="label_37" for="input_37" aria-hidden="false"><br> Email<span class="form-required">*</span> </label>
-      <div id="cid_37" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="email" id="input_37" name="q37_email" class="form-textbox validate[required, Email]" data-defaultvalue="" style="width:310px" size="310" data-component="email" aria-labelledby="label_37 sublabel_input_37" required="" value="" /><label class="form-sub-label" for="input_37" id="sublabel_input_37" style="min-height:13px">example@example.com</label></span> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_phone" id="id_40"><label class="form-label form-label-top form-label-auto" id="label_40" for="input_40_full"> <br>Phone Number<span class="form-required">*</span> </label>
-      <div id="cid_40" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="tel" id="input_40_full" name="q40_phoneNumber[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" data-defaultvalue="" style="width:310px" data-masked="true" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_40 sublabel_40_masked" required="" value="" /><label class="form-sub-label" for="input_40_full" id="sublabel_40_masked" style="min-height:13px">Please enter a valid phone number.</label></span> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textbox" id="id_41"><label class="form-label form-label-top form-label-auto" id="label_41" for="input_41" aria-hidden="false"> <br>Instagram Handle<span class="form-required">*</span> </label>
-      <div id="cid_41" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_41" name="q41_instagramHandle" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_41" required="" value="" /> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_number" id="id_42"><label class="form-label form-label-top form-label-auto" id="label_42" for="input_42" aria-hidden="false"> <br>Age<span class="form-required">*</span> </label>
-      <div id="cid_42" class="form-input-wide jf-required" data-layout="half"> <input type="number" id="input_42" name="q42_age" data-type="input-number" class=" form-number-input form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" placeholder="e.g., 23" data-component="number" aria-labelledby="label_42" required="" step="any" value="" /> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_number" id="id_43"><label class="form-label form-label-top form-label-auto" id="label_43" for="input_43" aria-hidden="false"><br>Height (In Inches)<span class="form-required">*</span> </label>
-      <div id="cid_43" class="form-input-wide jf-required" data-layout="half"> <input type="number" id="input_43" name="q43_height" data-type="input-number" class=" form-number-input form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" placeholder="e.g., 65" data-component="number" aria-labelledby="label_43" required="" step="any" value="" /> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textbox" id="id_65"><label class="form-label form-label-top form-label-auto" id="label_65" for="input_65" aria-hidden="false"> <br>Weight <span class="form-required">*</span> </label>
-      <div id="cid_65" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_65" name="q65_weight" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_65" required="" value="" /> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textbox" id="id_45"><label class="form-label form-label-top form-label-auto" id="label_45" for="input_45" aria-hidden="false"> <br>Gender<span class="form-required">*</span> </label>
-      <div id="cid_45" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_45" name="q45_typeA45" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_45" required="" value="" /> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_radio" id="id_77"><label class="form-label form-label-top form-label-auto" id="label_77" aria-hidden="false"> <br>Which one describes your daily activity level the best?<span class="form-required">*</span> </label>
-      <div id="cid_77" class="form-input-wide jf-required" data-layout="full">
-        <div class="form-single-column" role="group" aria-labelledby="label_77" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_77" class="form-radio validate[required]" id="input_77_0" name="q77_whichOne" value="Sedentary ( i.e., desk job, full time student, overall NEAT/steps under 6000 daily)" required="" /><label id="label_input_77_0" for="input_77_0">Sedentary ( i.e., desk job, full time student, overall NEAT/steps under 6000 daily)</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_77" class="form-radio validate[required]" id="input_77_1" name="q77_whichOne" value="Light activity ( i.e., spending a good part of the day on your feet, teaching, RN, etc., overall NEAT/steps 6000-8000 daily)" required="" /><label id="label_input_77_1" for="input_77_1">Light activity ( i.e., spending a good part of the day on your feet, teaching, RN, etc., overall NEAT/steps 6000-8000 daily)</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_77" class="form-radio validate[required]" id="input_77_2" name="q77_whichOne" value="Active ( i.e., spending most of your day on your feet, waitress, personal trainer, etc., overall NEAT/ steps 8000-11,000 daily)" required="" /><label id="label_input_77_2" for="input_77_2">Active ( i.e., spending most of your day on your feet, waitress, personal trainer, etc., overall NEAT/ steps 8000-11,000 daily)</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_77" class="form-radio validate[required]" id="input_77_3" name="q77_whichOne" value="Very Active ( i.e., spending most of the day during heavy physic labor, NEAT/steps over 12-15,000 daily" required="" /><label id="label_input_77_3" for="input_77_3">Very Active ( i.e., spending most of the day during heavy physic labor, NEAT/steps over 12-15,000 daily</label></span></div>
-      </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_78"><label class="form-label form-label-top form-label-auto" id="label_78" for="input_78" aria-hidden="false"> What is your current occupation? <span class="form-required">*</span> </label>
-      <div id="cid_78" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_78" class="form-textarea validate[required]" name="q78_whatIs78" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_78"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_70"><label class="form-label form-label-top form-label-auto" id="label_70" for="input_70" aria-hidden="false"><br> What is your current fitness goal?<span class="form-required">*</span> </label>
-      <div id="cid_70" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_70" class="form-textarea validate[required]" name="q70_whatDo70" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_70"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_72"><label class="form-label form-label-top form-label-auto" id="label_72" for="input_72" aria-hidden="false"><br> How many days a week do you currently train (strength training) and for how long (on average) ?<span class="form-required">*</span> </label>
-      <div id="cid_72" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_72" class="form-textarea validate[required]" name="q72_longTerm" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_72"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_73"><label class="form-label form-label-top form-label-auto" id="label_73" for="input_73" aria-hidden="false"><br> What is your current training split/regimen?<span class="form-required">*</span> </label>
-      <div id="cid_73" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_73" class="form-textarea validate[required]" name="q73_howMany" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_73"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_74"><label class="form-label form-label-top form-label-auto" id="label_74" for="input_74" aria-hidden="false"> <br>How many days do you currently do cardiovascular activities and for how long? ( i.e., elliptical, treadmill, spin bike, etc., or HIIT/Circuit style training/crossfit) <span class="form-required">*</span> </label>
-      <div id="cid_74" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_74" class="form-textarea validate[required]" name="q74_whatIs" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_74"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_75"><label class="form-label form-label-top form-label-auto" id="label_75" for="input_75" aria-hidden="false"> <br>What are your specific training goals? ( i.e. gain strength, lose body fat, increase endurance, improve overall health/cardiovascular health, improve functional performance, or division specific for bodybuilding) <span class="form-required">*</span> </label>
-      <div id="cid_75" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_75" class="form-textarea validate[required]" name="q75_whatAre" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_75"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_48"><label class="form-label form-label-top form-label-auto" id="label_48" for="input_48" aria-hidden="false"><br> What type of plan would you prefer?<span class="form-required">*</span> </label>
-      <div id="cid_48" class="form-input-wide jf-required" data-layout="half"> <select class="form-dropdown validate[required]" id="input_48" name="q48_whatType" style="width:310px" data-component="dropdown" required="" aria-label="What type of plan would you prefer?">
-          <option value="">Please Select</option>
-          <option value="Macro Based (flexible dieting approach)">Macro Based (flexible dieting approach)</option>
-          <option value="Strict Plan">Strict Plan</option>
-          <option value=""></option>
-        </select> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_49"><label class="form-label form-label-top form-label-auto" id="label_49" for="input_49" aria-hidden="false"><br> If you selected &quot;Strict Plan&quot; please list foods you are allergic to. If none type N/A :<span class="form-required">*</span> </label>
-      <div id="cid_49" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_49" class="form-textarea validate[required]" name="q49_whatDo49" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_49"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_66"><label class="form-label form-label-top form-label-auto" id="label_66" for="input_66" aria-hidden="false"> <br>Please list carb sources you DON'T like ( i.e., sweet potato, white potato, jasmine, rice, cream of rice, oats, cereals, quinoa, fruit -- what kind, beans/legumes, bread, etc) : <span class="form-required">*</span> </label>
-      <div id="cid_66" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_66" class="form-textarea validate[required]" name="q66_ifYou66" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_66"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_67"><label class="form-label form-label-top form-label-auto" id="label_67" for="input_67" aria-hidden="false"><br> Please list fat sources you DON'T like ( i.e., almonds, peanuts, almond butter, peanut butter, chia seeds, olive oil, macadamia nut oil, cheese, avocado, ghee/butter, etc.<span class="form-required">*</span> </label>
-      <div id="cid_67" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_67" class="form-textarea validate[required]" name="q67_pleaseList" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_67"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_83"><label class="form-label form-label-top form-label-auto" id="label_83" for="input_83" aria-hidden="false"> <br>Please list protein sources you DON'T like ( i.e., chicken. eggs/ egg whites, turkey, fish -- what kind, beef, pork, greek yogurt, whey/soy powder, etc):<span class="form-required">*</span> </label>
-      <div id="cid_83" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_83" class="form-textarea validate[required]" name="q83_pleaseList83" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_83"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_82"><label class="form-label form-label-top form-label-auto" id="label_82" for="input_82" aria-hidden="false"> <br>What is your best guess at your CURRENT daily caloric intake and HOW LONG have you been eating this amount? Are you currently gaining, losing or maintaining.on this amount?<span class="form-required">*</span> </label>
-      <div id="cid_82" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_82" class="form-textarea validate[required]" name="q82_whatIs82" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_82"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_scale" id="id_68"><label class="form-label form-label-top form-label-auto" id="label_68" for="input_68" aria-hidden="false"><br> On a scale of 1-5, what is your relationship with food like?<span class="form-required">*</span> </label>
-      <div id="cid_68" class="form-input-wide jf-required" data-layout="full"> <span class="form-sub-label-container" style="vertical-align:top">
-          <div role="radiogroup" aria-labelledby="label_68 sublabel_input_68_description" cellPadding="4" cellSpacing="0" class="form-scale-table" data-component="scale">
-            <div class="rating-item-group">
-              <div class="rating-item"><span class="rating-item-title for-from"><label for="input_68_worst" aria-hidden="true">Poor </label></span><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="1" title="1" id="input_68_1" required="" /><label for="input_68_1">1</label></div>
-              <div class="rating-item"><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="2" title="2" id="input_68_2" required="" /><label for="input_68_2">2</label></div>
-              <div class="rating-item"><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="3" title="3" id="input_68_3" required="" /><label for="input_68_3">3</label></div>
-              <div class="rating-item"><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="4" title="4" id="input_68_4" required="" /><label for="input_68_4">4</label></div>
-              <div class="rating-item"><span class="rating-item-title for-to"><label for="input_68_best" aria-hidden="true">Amazing</label></span><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="5" title="5" id="input_68_5" required="" /><label for="input_68_5">5</label></div>
-            </div>
-          </div><label class="form-sub-label" id="sublabel_input_68_description" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap">1 is Poor , 5 is Amazing</label>
-        </span> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_scale" id="id_69"><label class="form-label form-label-top form-label-auto" id="label_69" for="input_69" aria-hidden="false"> <br>On a scale of 1-5, what is your relationship with weighing yourself like?<span class="form-required">*</span> </label>
-      <div id="cid_69" class="form-input-wide jf-required" data-layout="full"> <span class="form-sub-label-container" style="vertical-align:top">
-          <div role="radiogroup" aria-labelledby="label_69 sublabel_input_69_description" cellPadding="4" cellSpacing="0" class="form-scale-table" data-component="scale">
-            <div class="rating-item-group">
-              <div class="rating-item"><span class="rating-item-title for-from"><label for="input_69_worst" aria-hidden="true">Poor </label></span><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="1" title="1" id="input_69_1" required="" /><label for="input_69_1">1</label></div>
-              <div class="rating-item"><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="2" title="2" id="input_69_2" required="" /><label for="input_69_2">2</label></div>
-              <div class="rating-item"><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="3" title="3" id="input_69_3" required="" /><label for="input_69_3">3</label></div>
-              <div class="rating-item"><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="4" title="4" id="input_69_4" required="" /><label for="input_69_4">4</label></div>
-              <div class="rating-item"><span class="rating-item-title for-to"><label for="input_69_best" aria-hidden="true">Amazing</label></span><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="5" title="5" id="input_69_5" required="" /><label for="input_69_5">5</label></div>
-            </div>
-          </div><label class="form-sub-label" id="sublabel_input_69_description" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap">1 is Poor , 5 is Amazing</label>
-        </span> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_50"><label class="form-label form-label-top form-label-auto" id="label_50" for="input_50" aria-hidden="false"> <br>If taking any over the counter supplements / vitamins please list below:<span class="form-required">*</span> </label>
-      <div id="cid_50" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_50" class="form-textarea validate[required]" name="q50_ifYou" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_50"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_51"><label class="form-label form-label-top form-label-auto" id="label_51" for="input_51" aria-hidden="false"> <br>If taking any super supplementation/PEDs please list below dosages per week / length of time. Also list the goal with this supplementation. If not type N/A:<span class="form-required">*</span> </label>
-      <div id="cid_51" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_51" class="form-textarea validate[required]" name="q51_ifTaking" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_51"></textarea> </div>
-    </li>
-    <li class="form-line jf-required" data-type="control_textarea" id="id_80"><label class="form-label form-label-top form-label-auto" id="label_80" for="input_80" aria-hidden="false"><br> Are you currently on any medications or have any medical issues that I need to be aware of (that may impact activity or nutrition)? Please list all current medications, supplements, vitamins, etc., below. <br> For each one: <br>Supplement: <br>Dosage: <br>Frequency: <br>Reason: <span class="form-required">*</span> </label>
-      <div id="cid_80" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_80" class="form-textarea validate[required]" name="q80_areYou" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_80"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_81"><label class="form-label form-label-top form-label-auto" id="label_81" for="input_81" aria-hidden="false"><br> Women only: Are you currently on birth control? Please list the brand/type (IUD,pill, etc.).If you are currently using birth control, how long have you been using it for?If you recently came off of birth control, please give a breakdown of your BC/IUD history.<span class="form-required">*</span> </label>
-      <div id="cid_81" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_81" class="form-textarea validate[required]" name="q81_womenOnly" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_81"></textarea> </div>
-    </li>
-    <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_79"><label class="form-label form-label-top form-label-auto" id="label_79" for="input_79" aria-hidden="false"> <br>Do you have any health limitations your coach should be aware of ( i.e., injuries, food, allergies, doctor's orders, etc.)?<span class="form-required">*</span> </label>
-      <div id="cid_79" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_79" class="form-textarea validate[required]" name="q79_doYou79" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_79"></textarea> </div>
-    </li>
-    <br><br>
-    <p><b>PLEASE READ EACH COACHING PACKAGE BEFORE SELECTING YOUR PREFERRED PACKAGE.</b><br><br></b></p>
-    <p>If you want <b>BOTH</b> coaching <b>AND</b> workout programming then select your desired coach and package length + Workout Program.<br> These packages are coaching subscriptions (auto-payments) with a one-time workout program fee of $49.99.To buy new training phasing you will need to return here and select “Workout Program (12 Week Long Phase).” </p>
-        <li class="form-line card-2col jf-required" data-type="control_paypal" id="id_6" data-payment="true"><label class="form-label form-label-top" id="label_6" for="input_6" aria-hidden="false"> Select the coach and plan you will be working with<span class="form-required">*</span> </label>
-          <div id="cid_6" class="form-input-wide jf-required" data-layout="full">
-            <div data-wrapper-react="true" class="product-container-wrapper">
-              <div class="filter-container"></div><input type="hidden" name="simple_fpc" data-payment_type="paypal" data-component="payment1" value="6" /><input type="hidden" name="payment_transaction_uuid" id="paymentTransactionId" /><input type="hidden" name="payment_version" id="payment_version" value="3" /><input type="hidden" name="payment_total_checksum" id="payment_total_checksum" data-component="payment2" /><input type="hidden" name="payment_discount_value" id="payment_discount_value" data-component="payment3" /><input type="hidden" name="first_payment_discount_value" id="firstPaymentDiscount" /><input type="hidden" name="recur_payment_discount_value" id="recurPaymentDiscount" />
-              <div id="image-overlay" class="overlay-content" style="display:none"><img id="current-image" /><span class="lb-prev-button">prev</span><span class="lb-next-button">next</span><span class="lb-close-button">( X )</span><span class="image-overlay-product-container">
-                  <ul class="form-overlay-item" pid="1013" hasicon="false" hasimages="false" iconvalue=""></ul>
-                  <ul class="form-overlay-item" pid="1027" hasicon="false" hasimages="false" iconvalue=""></ul>
-                  <ul class="form-overlay-item" pid="1015" hasicon="false" hasimages="false" iconvalue=""></ul>
-                  <ul class="form-overlay-item" pid="1028" hasicon="false" hasimages="false" iconvalue=""></ul>
-                  <ul class="form-overlay-item" pid="1016" hasicon="false" hasimages="false" iconvalue=""></ul>
-                  <ul class="form-overlay-item" pid="1029" hasicon="false" hasimages="false" iconvalue=""></ul>
-                  <ul class="form-overlay-item" pid="1030" hasicon="false" hasimages="false" iconvalue=""></ul>
-                </span></div>
-              <div data-wrapper-react="true"><span class="form-product-item hover-product-item on_col1 new_ui" categories="non-categorized" pid="1013" aria-labelledby="label_6">
-                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
-                    <div class="p_col">
-                      <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1013" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1013" readonly="" aria-label="Select Product: Bizzer Monthly Coaching Subscription: " />
-                        <div class="checked"></div>
-                        <div class="select_border"></div>
-                      </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_29">
+        <div id="cid_29" class="form-input-wide" data-layout="full">
+          <div id="text_29" class="form-html" data-component="text" tabindex="0">
+            <h2>What Team Limitless Physiques Expects from <strong>You.</strong></h2>
+            <p>As your coaches, all we ask is that <strong>you give 100% effort</strong> to the plan and consistency within the variables that are laid out for you.</p>
+            <p>It is your <strong>responsibility</strong> to <strong>check in each week on time (before 8:00AM EST)</strong> and on your respective check in day (assigned by your coach). Set a timer on your phone, if needed, until this becomes second nature.</p>
+            <p><strong>Honest</strong> and <strong>thorough</strong> check-ins are necessary for your coach to properly coach you towards your goals. Answer each check in question <strong>in full</strong> without including unnecessary information.<br />We will <strong>always give you 100%</strong>, so we expect your 100% effort in return.</p>
+            <p> </p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_radio" id="id_55"><label class="form-label form-label-top form-label-auto" id="label_55" aria-hidden="false"> By checking this box you are confirming you have read and acknowledged the above statements.<span class="form-required">*</span> </label>
+        <div id="cid_55" class="form-input-wide jf-required" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_55" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_55" class="form-radio validate[required]" id="input_55_0" name="q55_byChecking55" value="I agree" required="" /><label id="label_input_55_0" for="input_55_0">I agree</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_55" class="form-radio validate[required]" id="input_55_1" name="q55_byChecking55" value="I disagree" required="" /><label id="label_input_55_1" for="input_55_1">I disagree</label></span></div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_30">
+        <div id="cid_30" class="form-input-wide" data-layout="full">
+          <div id="text_30" class="form-html" data-component="text" tabindex="0">
+            <h2>Liability:</h2>
+            <p>I hereby assume full responsibility for any results, injuries, losses and damages incurred while participating in any Limitless Physiques program. I hereby waive all claims against Limitless, its agents, its employees for any and all injuries, claims or damages that I may incur.</p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_radio" id="id_56"><label class="form-label form-label-top form-label-auto" id="label_56" aria-hidden="false"> By checking this box you are confirming you have read and acknowledged the above statements.<span class="form-required">*</span> </label>
+        <div id="cid_56" class="form-input-wide jf-required" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_56" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_56" class="form-radio validate[required]" id="input_56_0" name="q56_byChecking56" value="I agree" required="" /><label id="label_input_56_0" for="input_56_0">I agree</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_56" class="form-radio validate[required]" id="input_56_1" name="q56_byChecking56" value="I disagree" required="" /><label id="label_input_56_1" for="input_56_1">I disagree</label></span></div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_fullname" id="id_35"><label class="form-label form-label-top form-label-auto" id="label_35" for="first_35" aria-hidden="false"> Name<span class="form-required">*</span> </label>
+        <div id="cid_35" class="form-input-wide jf-required" data-layout="full">
+          <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="first"><input type="text" id="first_35" name="q35_name[first]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_35 given-name" size="10" data-component="first" aria-labelledby="label_35 sublabel_35_first" required="" value="" /><label class="form-sub-label" for="first_35" id="sublabel_35_first" style="min-height:13px">First Name</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="last"><input type="text" id="last_35" name="q35_name[last]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_35 family-name" size="15" data-component="last" aria-labelledby="label_35 sublabel_35_last" required="" value="" /><label class="form-sub-label" for="last_35" id="sublabel_35_last" style="min-height:13px">Last Name</label></span></div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_email" id="id_37"><label class="form-label form-label-top form-label-auto" id="label_37" for="input_37" aria-hidden="false"> Email<span class="form-required">*</span> </label>
+        <div id="cid_37" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="email" id="input_37" name="q37_email" class="form-textbox validate[required, Email]" data-defaultvalue="" autoComplete="section-input_37 email" style="width:310px" size="310" data-component="email" aria-labelledby="label_37 sublabel_input_37" required="" value="" /><label class="form-sub-label" for="input_37" id="sublabel_input_37" style="min-height:13px">example@example.com</label></span> </div>
+      </li>
+      <li class="form-line form-field-hidden" style="display:none;" data-type="control_text" id="id_38">
+        <div id="cid_38" class="form-input-wide" data-layout="full">
+          <div id="text_38" class="form-html" data-component="text" tabindex="0">
+            <p>Please agree below if you fully understand what is expected from coach to team member and from team member to coach.</p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_radio" id="id_57"><label class="form-label form-label-top form-label-auto" id="label_57" aria-hidden="false"> By checking this box you are confirming you have read and acknowledged the above statements.<span class="form-required">*</span> </label>
+        <div id="cid_57" class="form-input-wide jf-required" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_57" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_57" class="form-radio validate[required]" id="input_57_0" name="q57_byChecking57" value="I agree" required="" /><label id="label_input_57_0" for="input_57_0">I agree</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_57" class="form-radio validate[required]" id="input_57_1" name="q57_byChecking57" value="I disagree" required="" /><label id="label_input_57_1" for="input_57_1">I disagree</label></span></div>
+        </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_phone" id="id_40"><label class="form-label form-label-top form-label-auto" id="label_40" for="input_40_full"> Phone Number<span class="form-required">*</span> </label>
+        <div id="cid_40" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="tel" id="input_40_full" name="q40_phoneNumber[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" data-defaultvalue="" autoComplete="section-input_40 tel-national" style="width:310px" data-masked="true" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_40 sublabel_40_masked" required="" value="" /><label class="form-sub-label" for="input_40_full" id="sublabel_40_masked" style="min-height:13px">Please enter a valid phone number.</label></span> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textbox" id="id_41"><label class="form-label form-label-top form-label-auto" id="label_41" for="input_41" aria-hidden="false"> Instagram Handle<span class="form-required">*</span> </label>
+        <div id="cid_41" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_41" name="q41_instagramHandle" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_41" required="" value="" /> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_number" id="id_42"><label class="form-label form-label-top form-label-auto" id="label_42" for="input_42" aria-hidden="false"> Age<span class="form-required">*</span> </label>
+        <div id="cid_42" class="form-input-wide jf-required" data-layout="half"> <input type="number" id="input_42" name="q42_age" data-type="input-number" class=" form-number-input form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" placeholder="e.g., 23" data-component="number" aria-labelledby="label_42" required="" step="any" value="" /> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_number" id="id_43"><label class="form-label form-label-top form-label-auto" id="label_43" for="input_43" aria-hidden="false"> Height ( Inches ) <span class="form-required">*</span> </label>
+        <div id="cid_43" class="form-input-wide jf-required" data-layout="half"> <input type="number" id="input_43" name="q43_height" data-type="input-number" class=" form-number-input form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" placeholder="e.g., 23" data-component="number" aria-labelledby="label_43" required="" step="any" value="" /> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textbox" id="id_65"><label class="form-label form-label-top form-label-auto" id="label_65" for="input_65" aria-hidden="false"> Weight <span class="form-required">*</span> </label>
+        <div id="cid_65" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_65" name="q65_weight" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_65" required="" value="" /> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textbox" id="id_45"><label class="form-label form-label-top form-label-auto" id="label_45" for="input_45" aria-hidden="false"> Gender<span class="form-required">*</span> </label>
+        <div id="cid_45" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_45" name="q45_typeA45" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_45" required="" value="" /> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_radio" id="id_77"><label class="form-label form-label-top form-label-auto" id="label_77" aria-hidden="false"> Which one describes your daily activity level the best?<span class="form-required">*</span> </label>
+        <div id="cid_77" class="form-input-wide jf-required" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_77" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_77" class="form-radio validate[required]" id="input_77_0" name="q77_whichOne" value="Sedentary ( i.e., desk job, full time student, overall NEAT/steps under 6000 daily)" required="" /><label id="label_input_77_0" for="input_77_0">Sedentary ( i.e., desk job, full time student, overall NEAT/steps under 6000 daily)</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_77" class="form-radio validate[required]" id="input_77_1" name="q77_whichOne" value="Light activity ( i.e., spending a good part of the day on your feet, teaching, RN, etc., overall NEAT/steps 6000-8000 daily)" required="" /><label id="label_input_77_1" for="input_77_1">Light activity ( i.e., spending a good part of the day on your feet, teaching, RN, etc., overall NEAT/steps 6000-8000 daily)</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_77" class="form-radio validate[required]" id="input_77_2" name="q77_whichOne" value="Active ( i.e., spending most of your day on your feet, waitress, personal trainer, etc., overall NEAT/ steps 8000-11,000 daily)" required="" /><label id="label_input_77_2" for="input_77_2">Active ( i.e., spending most of your day on your feet, waitress, personal trainer, etc., overall NEAT/ steps 8000-11,000 daily)</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_77" class="form-radio validate[required]" id="input_77_3" name="q77_whichOne" value="Very Active ( i.e., spending most of the day during heavy physic labor, NEAT/steps over 12-15,000 daily" required="" /><label id="label_input_77_3" for="input_77_3">Very Active ( i.e., spending most of the day during heavy physic labor, NEAT/steps over 12-15,000 daily</label></span></div>
+        </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_78"><label class="form-label form-label-top form-label-auto" id="label_78" for="input_78" aria-hidden="false"> What is your current occupation? <span class="form-required">*</span> </label>
+        <div id="cid_78" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_78" class="form-textarea validate[required]" name="q78_whatIs78" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_78"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_70"><label class="form-label form-label-top form-label-auto" id="label_70" for="input_70" aria-hidden="false"> Goals<span class="form-required">*</span> </label>
+        <div id="cid_70" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_70" class="form-textarea validate[required]" name="q70_whatDo70" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_70"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_72"><label class="form-label form-label-top form-label-auto" id="label_72" for="input_72" aria-hidden="false"> How many days a week do you currently train (strength training) and for how long (on average) ?<span class="form-required">*</span> </label>
+        <div id="cid_72" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_72" class="form-textarea validate[required]" name="q72_longTerm" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_72"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_73"><label class="form-label form-label-top form-label-auto" id="label_73" for="input_73" aria-hidden="false"> What is your current training split/regimen?<span class="form-required">*</span> </label>
+        <div id="cid_73" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_73" class="form-textarea validate[required]" name="q73_howMany" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_73"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_74"><label class="form-label form-label-top form-label-auto" id="label_74" for="input_74" aria-hidden="false"> How many days do you currently do cardiovascular activities and for how long? ( i.e., elliptical, treadmill, spin bike, etc., or HIIT/Circuit style training/crossfit) <span class="form-required">*</span> </label>
+        <div id="cid_74" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_74" class="form-textarea validate[required]" name="q74_whatIs" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_74"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_75"><label class="form-label form-label-top form-label-auto" id="label_75" for="input_75" aria-hidden="false"> What are your specific training goals? ( i.e. gain strength, lose body fat, increase endurance, improve overall health/cardiovascular health, improve functional performance, or division specific for bodybuilding) <span class="form-required">*</span> </label>
+        <div id="cid_75" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_75" class="form-textarea validate[required]" name="q75_whatAre" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_75"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_48"><label class="form-label form-label-top form-label-auto" id="label_48" for="input_48" aria-hidden="false"> What type of plan would you prefer?<span class="form-required">*</span> </label>
+        <div id="cid_48" class="form-input-wide jf-required" data-layout="half"> <select class="form-dropdown validate[required]" id="input_48" name="q48_whatType" style="width:310px" data-component="dropdown" required="" aria-label="What type of plan would you prefer?">
+            <option value="">Please Select</option>
+            <option value="Macro Based (flexible dieting approach)">Macro Based (flexible dieting approach)</option>
+            <option value="Strict Plan">Strict Plan</option>
+            <option value=""></option>
+          </select> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_49"><label class="form-label form-label-top form-label-auto" id="label_49" for="input_49" aria-hidden="false"> If you selected "Strict Plan" please list foods you are allergic to. If none type N/A :<span class="form-required">*</span> </label>
+        <div id="cid_49" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_49" class="form-textarea validate[required]" name="q49_whatDo49" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_49"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_66"><label class="form-label form-label-top form-label-auto" id="label_66" for="input_66" aria-hidden="false"> Please list carb sources you DON'T like ( i.e., sweet potato, white potato, jasmine, rice, cream of rice, oats, cereals, quinoa, fruit -- what kind, beans/legumes, bread, etc) : <span class="form-required">*</span> </label>
+        <div id="cid_66" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_66" class="form-textarea validate[required]" name="q66_ifYou66" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_66"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_67"><label class="form-label form-label-top form-label-auto" id="label_67" for="input_67" aria-hidden="false"> Please list fat sources you DON'T like ( i.e., almonds, peanuts, almond butter, peanut butter, chia seeds, olive oil, macadamia nut oil, cheese, avocado, ghee/butter, etc.<span class="form-required">*</span> </label>
+        <div id="cid_67" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_67" class="form-textarea validate[required]" name="q67_pleaseList" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_67"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_83"><label class="form-label form-label-top form-label-auto" id="label_83" for="input_83" aria-hidden="false"> Please list protein sources you DON'T like ( i.e., chicken. eggs/ egg whites, turkey, fish -- what kind, beef, pork, greek yogurt, whey/soy powder, etc):<span class="form-required">*</span> </label>
+        <div id="cid_83" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_83" class="form-textarea validate[required]" name="q83_pleaseList83" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_83"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_82"><label class="form-label form-label-top form-label-auto" id="label_82" for="input_82" aria-hidden="false"> What is your best guess at your CURRENT daily caloric intake and HOW LONG have you been eating this amount? Are you currently gaining, losing or maintaining.on this amount?<span class="form-required">*</span> </label>
+        <div id="cid_82" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_82" class="form-textarea validate[required]" name="q82_whatIs82" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_82"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_scale" id="id_68"><label class="form-label form-label-top form-label-auto" id="label_68" for="input_68" aria-hidden="false"> On a scale of 1-5, what is your relationship with food like?<span class="form-required">*</span> </label>
+        <div id="cid_68" class="form-input-wide jf-required" data-layout="full"> <span class="form-sub-label-container" style="vertical-align:top">
+            <div role="radiogroup" aria-labelledby="label_68 sublabel_input_68_description" cellPadding="4" cellSpacing="0" class="form-scale-table" data-component="scale">
+              <div class="rating-item-group">
+                <div class="rating-item"><span class="rating-item-title for-from"><label for="input_68_worst" aria-hidden="true">Poor </label></span><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="1" title="1" id="input_68_1" required="" /><label for="input_68_1">1</label></div>
+                <div class="rating-item"><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="2" title="2" id="input_68_2" required="" /><label for="input_68_2">2</label></div>
+                <div class="rating-item"><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="3" title="3" id="input_68_3" required="" /><label for="input_68_3">3</label></div>
+                <div class="rating-item"><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="4" title="4" id="input_68_4" required="" /><label for="input_68_4">4</label></div>
+                <div class="rating-item"><span class="rating-item-title for-to"><label for="input_68_best" aria-hidden="true">Amazing</label></span><input type="radio" aria-describedby="label_68" class="form-radio validate[required]" name="q68_typeA68" value="5" title="5" id="input_68_5" required="" /><label for="input_68_5">5</label></div>
+              </div>
+            </div><label class="form-sub-label" id="sublabel_input_68_description" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap">1 is Poor , 5 is Amazing</label>
+          </span> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_scale" id="id_69"><label class="form-label form-label-top form-label-auto" id="label_69" for="input_69" aria-hidden="false"> On a scale of 1-5, what is your relationship with weighing yourself like?<span class="form-required">*</span> </label>
+        <div id="cid_69" class="form-input-wide jf-required" data-layout="full"> <span class="form-sub-label-container" style="vertical-align:top">
+            <div role="radiogroup" aria-labelledby="label_69 sublabel_input_69_description" cellPadding="4" cellSpacing="0" class="form-scale-table" data-component="scale">
+              <div class="rating-item-group">
+                <div class="rating-item"><span class="rating-item-title for-from"><label for="input_69_worst" aria-hidden="true">Poor </label></span><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="1" title="1" id="input_69_1" required="" /><label for="input_69_1">1</label></div>
+                <div class="rating-item"><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="2" title="2" id="input_69_2" required="" /><label for="input_69_2">2</label></div>
+                <div class="rating-item"><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="3" title="3" id="input_69_3" required="" /><label for="input_69_3">3</label></div>
+                <div class="rating-item"><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="4" title="4" id="input_69_4" required="" /><label for="input_69_4">4</label></div>
+                <div class="rating-item"><span class="rating-item-title for-to"><label for="input_69_best" aria-hidden="true">Amazing</label></span><input type="radio" aria-describedby="label_69" class="form-radio validate[required]" name="q69_onA" value="5" title="5" id="input_69_5" required="" /><label for="input_69_5">5</label></div>
+              </div>
+            </div><label class="form-sub-label" id="sublabel_input_69_description" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap">1 is Poor , 5 is Amazing</label>
+          </span> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_50"><label class="form-label form-label-top form-label-auto" id="label_50" for="input_50" aria-hidden="false"> If taking any over the counter supplements / vitamins please list below:<span class="form-required">*</span> </label>
+        <div id="cid_50" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_50" class="form-textarea validate[required]" name="q50_ifYou" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_50"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_51"><label class="form-label form-label-top form-label-auto" id="label_51" for="input_51" aria-hidden="false"> If taking any super supplementation/PEDs please list below dosages per week / length of time. Also list the goal with this supplementation. If not type N/A:<span class="form-required">*</span> </label>
+        <div id="cid_51" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_51" class="form-textarea validate[required]" name="q51_ifTaking" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_51"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_80"><label class="form-label form-label-top form-label-auto" id="label_80" for="input_80" aria-hidden="false"> Are you currently on any medications or have any medical issues that I need to be aware of ( that may impact activity or nutrition)? Please list all current medications, supplements, vitamins, etc., below For each one:Supplement:Dosage:Frequency:Reason:<span class="form-required">*</span> </label>
+        <div id="cid_80" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_80" class="form-textarea validate[required]" name="q80_areYou" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_80"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_81"><label class="form-label form-label-top form-label-auto" id="label_81" for="input_81" aria-hidden="false"> Women only: Are you currently on birth control? Please list the brand/type (IUD,pill, etc.).If you are currently using birth control, how long have you been using it for?If you recently came off of birth control, please give a breakdown of your BC/IUDhistory.<span class="form-required">*</span> </label>
+        <div id="cid_81" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_81" class="form-textarea validate[required]" name="q81_womenOnly" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_81"></textarea> </div>
+      </li>
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_textarea" id="id_79"><label class="form-label form-label-top form-label-auto" id="label_79" for="input_79" aria-hidden="false"> Do you have any health limitations your coach should be aware of ( i.e., injuries, food, allergies, doctor's orders, etc.)?<span class="form-required">*</span> </label>
+        <div id="cid_79" class="form-input-wide jf-required" data-layout="full"> <textarea id="input_79" class="form-textarea validate[required]" name="q79_doYou79" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_79"></textarea> </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide" data-layout="full">
+          <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Continue To Checkout</button></div>
+        </div>
+      </li>
+      <li class="form-line card-2col jf-required" data-type="control_paypal" id="id_6" data-payment="true"><label class="form-label form-label-top" id="label_6" for="input_6" aria-hidden="false"> Select the coach and plan you will be working with<span class="form-required">*</span> </label>
+        <div id="cid_6" class="form-input-wide jf-required" data-layout="full">
+          <div data-wrapper-react="true" class="product-container-wrapper">
+            <div class="filter-container"></div><input type="hidden" name="simple_fpc" data-payment_type="paypal" data-component="payment1" value="6" /><input type="hidden" name="payment_transaction_uuid" id="paymentTransactionId" /><input type="hidden" name="payment_version" id="payment_version" value="4" /><input type="hidden" name="payment_total_checksum" id="payment_total_checksum" data-component="payment2" /><input type="hidden" name="payment_discount_value" id="payment_discount_value" data-component="payment3" /><input type="hidden" name="first_payment_discount_value" id="firstPaymentDiscount" /><input type="hidden" name="recur_payment_discount_value" id="recurPaymentDiscount" />
+            <div id="image-overlay" class="overlay-content" style="display:none"><img id="current-image" /><span class="lb-prev-button">prev</span><span class="lb-next-button">next</span><span class="lb-close-button">( X )</span><span class="image-overlay-product-container">
+                <ul class="form-overlay-item" pid="1013" hasicon="false" hasimages="false" iconvalue=""></ul>
+                <ul class="form-overlay-item" pid="1034" hasicon="false" hasimages="false" iconvalue=""></ul>
+                <ul class="form-overlay-item" pid="1015" hasicon="false" hasimages="false" iconvalue=""></ul>
+                <ul class="form-overlay-item" pid="1031" hasicon="false" hasimages="false" iconvalue=""></ul>
+                <ul class="form-overlay-item" pid="1016" hasicon="false" hasimages="false" iconvalue=""></ul>
+                <ul class="form-overlay-item" pid="1032" hasicon="false" hasimages="false" iconvalue=""></ul>
+                <ul class="form-overlay-item" pid="1030" hasicon="false" hasimages="false" iconvalue=""></ul>
+              </span></div>
+            <div data-wrapper-react="true"><span class="form-product-item hover-product-item on_col1 new_ui" categories="non-categorized" pid="1013" aria-labelledby="label_6">
+                <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                  <div class="p_col">
+                    <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1013" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1013" readonly="" aria-label="Select Product: Bizzer Monthly Coaching Subscription: " data-is-default-required="false" data-is-default-selected="false" />
+                      <div class="checked"></div>
+                      <div class="select_border"></div>
                     </div>
-                    <div class="p_image">
-                      <div class="image_area "></div>
-                    </div>
-                    <div for="input_6_1013" class="form-product-container"><span data-wrapper-react="true">
-                        <div class="title_description"><span class="form-product-name" id="product-name-input_6_1013">Bizzer Monthly Coaching Subscription: </span><span class="form-product-description" id="product-name-description-input_6_1013"></span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1013_price">179.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
-                      </span></div>
-                    <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                   </div>
-                </span>
-                <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col2 new_ui" categories="non-categorized" pid="1027" aria-labelledby="label_6">
-                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
-                    <div class="p_col">
-                      <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1027" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1027" readonly="" aria-label="Select Product: Bizzer Monthly Subscription With Program:" />
-                        <div class="checked"></div>
-                        <div class="select_border"></div>
-                      </div>
-                    </div>
-                    <div class="p_image">
-                      <div class="image_area "></div>
-                    </div>
-                    <div for="input_6_1027" class="form-product-container"><span data-wrapper-react="true">
-                        <div class="title_description"><span class="form-product-name" id="product-name-input_6_1027">Bizzer Monthly Subscription With Program:</span><span class="form-product-description" id="product-name-description-input_6_1027"></span></div><span class="form-product-details"><span data-wrapper-react="true" class="setupFeeField"><b><span data-wrapper-react="true">$<span id="input_6_1027_setupfee">229.96</span></span></b><span data-wrapper-react="true"> for the <u>first month</u> then,</span></span><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1027_price">179.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
-                      </span></div>
-                    <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
+                  <div class="p_image">
+                    <div class="image_area "></div>
                   </div>
-                </span>
-                <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col1 show_desc new_ui" categories="non-categorized" pid="1015" aria-labelledby="label_6">
-                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
-                    <div class="p_col">
-                      <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1015" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1015" readonly="" aria-label="Select Product: Bizzer 3 Month Coaching Subscription:" />
-                        <div class="checked"></div>
-                        <div class="select_border"></div>
-                      </div>
+                  <div for="input_6_1013" class="form-product-container"><span data-wrapper-react="true">
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1013">Bizzer Monthly Coaching Subscription: </span><span class="form-product-description" id="product-name-description-input_6_1013"></span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1013_price">199.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
+                    </span></div>
+                  <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                </div>
+              </span>
+              <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col2 new_ui" categories="non-categorized" pid="1034" aria-labelledby="label_6">
+                <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                  <div class="p_col">
+                    <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1034" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1034" readonly="" aria-label="Select Product: Bizzer Monthly Subscription With Program" data-is-default-required="false" data-is-default-selected="false" />
+                      <div class="checked"></div>
+                      <div class="select_border"></div>
                     </div>
-                    <div class="p_image">
-                      <div class="image_area "></div>
-                    </div>
-                    <div for="input_6_1015" class="form-product-container"><span data-wrapper-react="true">
-                        <div class="title_description"><span class="form-product-name" id="product-name-input_6_1015">Bizzer 3 Month Coaching Subscription:</span><span class="form-product-description" id="product-name-description-input_6_1015">($152.97 Monthly)</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1015_price">458.93</span></span></b><span data-wrapper-react="true"> for each <u>three months</u></span></span></span>
-                      </span></div>
-                    <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                   </div>
-                </span>
-                <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col2 new_ui" categories="non-categorized" pid="1028" aria-labelledby="label_6">
-                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
-                    <div class="p_col">
-                      <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1028" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1028" readonly="" aria-label="Select Product:  Bizzer 3 Month Coaching Subscription + Workout Program: " />
-                        <div class="checked"></div>
-                        <div class="select_border"></div>
-                      </div>
-                    </div>
-                    <div class="p_image">
-                      <div class="image_area "></div>
-                    </div>
-                    <div for="input_6_1028" class="form-product-container"><span data-wrapper-react="true">
-                        <div class="title_description"><span class="form-product-name" id="product-name-input_6_1028"> Bizzer 3 Month Coaching Subscription + Workout Program: </span><span class="form-product-description" id="product-name-description-input_6_1028"></span></div><span class="form-product-details"><span data-wrapper-react="true" class="setupFeeField"><b><span data-wrapper-react="true">$<span id="input_6_1028_setupfee">508.92</span></span></b><span data-wrapper-react="true"> for the <u>first month</u> then,</span></span><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1028_price">458.93</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
-                      </span></div>
-                    <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
+                  <div class="p_image">
+                    <div class="image_area "></div>
                   </div>
-                </span>
-                <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col1 show_desc new_ui" categories="non-categorized" pid="1016" aria-labelledby="label_6">
-                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
-                    <div class="p_col">
-                      <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1016" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1016" readonly="" aria-label="Select Product: Bizzer 6 Months Coaching Subscription: " />
-                        <div class="checked"></div>
-                        <div class="select_border"></div>
-                      </div>
+                  <div for="input_6_1034" class="form-product-container"><span data-wrapper-react="true">
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1034">Bizzer Monthly Subscription With Program</span><span class="form-product-description" id="product-name-description-input_6_1034"></span></div><span class="form-product-details"><span data-wrapper-react="true" class="setupFeeField"><b><span data-wrapper-react="true">$<span id="input_6_1034_setupfee">249.96</span></span></b><span data-wrapper-react="true"> for the <u>first month</u> then,</span></span><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1034_price">199.97</span></span></b><span data-wrapper-react="true"> for each <u>month</u></span></span></span>
+                    </span></div>
+                  <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                </div>
+              </span>
+              <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col1 show_desc new_ui" categories="non-categorized" pid="1015" aria-labelledby="label_6">
+                <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                  <div class="p_col">
+                    <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1015" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1015" readonly="" aria-label="Select Product: Bizzer 3 Month Coaching Subscription:" data-is-default-required="false" data-is-default-selected="false" />
+                      <div class="checked"></div>
+                      <div class="select_border"></div>
                     </div>
-                    <div class="p_image">
-                      <div class="image_area "></div>
-                    </div>
-                    <div for="input_6_1016" class="form-product-container"><span data-wrapper-react="true">
-                        <div class="title_description"><span class="form-product-name" id="product-name-input_6_1016">Bizzer 6 Months Coaching Subscription: </span><span class="form-product-description" id="product-name-description-input_6_1016">($143.97 Monthly)</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1016_price">863.86</span></span></b><span data-wrapper-react="true"> for each <u>six months</u></span></span></span>
-                      </span></div>
-                    <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                   </div>
-                </span>
-                <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col2 new_ui" categories="non-categorized" pid="1029" aria-labelledby="label_6">
-                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
-                    <div class="p_col">
-                      <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1029" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1029" readonly="" aria-label="Select Product: Bizzer 6 Month Coaching Subscription + Workout Program: " />
-                        <div class="checked"></div>
-                        <div class="select_border"></div>
-                      </div>
-                    </div>
-                    <div class="p_image">
-                      <div class="image_area "></div>
-                    </div>
-                    <div for="input_6_1029" class="form-product-container"><span data-wrapper-react="true">
-                        <div class="title_description"><span class="form-product-name" id="product-name-input_6_1029">Bizzer 6 Month Coaching Subscription + Workout Program: </span><span class="form-product-description" id="product-name-description-input_6_1029"></span></div><span class="form-product-details"><span data-wrapper-react="true" class="setupFeeField"><b><span data-wrapper-react="true">$<span id="input_6_1029_setupfee">913.85</span></span></b><span data-wrapper-react="true"> for the <u>first payment</u> then,</span></span><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1029_price">863.86</span></span></b><span data-wrapper-react="true"> for each <u>six months</u></span></span></span>
-                      </span></div>
-                    <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
+                  <div class="p_image">
+                    <div class="image_area "></div>
                   </div>
-                </span>
-                <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col1 new_ui" categories="non-categorized" pid="1030" aria-labelledby="label_6">
-                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
-                    <div class="p_col">
-                      <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1030" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1030" readonly="" aria-label="Select Product: Workout Program (12 Week Long Training Phase)  " />
-                        <div class="checked"></div>
-                        <div class="select_border"></div>
-                      </div>
+                  <div for="input_6_1015" class="form-product-container"><span data-wrapper-react="true">
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1015">Bizzer 3 Month Coaching Subscription:</span><span class="form-product-description" id="product-name-description-input_6_1015">($189.97 Monthly)</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1015_price">569.91</span></span></b><span data-wrapper-react="true"> for each <u>three months</u></span></span></span>
+                    </span></div>
+                  <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                </div>
+              </span>
+              <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col2 new_ui" categories="non-categorized" pid="1031" aria-labelledby="label_6">
+                <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                  <div class="p_col">
+                    <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1031" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1031" readonly="" aria-label="Select Product: Bizzer 3 Month Coaching Subscription + Workout Program" data-is-default-required="false" data-is-default-selected="false" />
+                      <div class="checked"></div>
+                      <div class="select_border"></div>
                     </div>
-                    <div class="p_image">
-                      <div class="image_area "></div>
-                    </div>
-                    <div for="input_6_1030" class="form-product-container"><span data-wrapper-react="true">
-                        <div class="title_description"><span class="form-product-name" id="product-name-input_6_1030">Workout Program (12 Week Long Training Phase) </span><span class="form-product-description" id="product-name-description-input_6_1030"></span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1030_price">49.99</span></span></b><span data-wrapper-react="true"> one-time payment</span></span></span>
-                      </span></div>
-                    <div class="focus_action_button_container"><a class="btn-inline-product-delete"> </a><a class="btn-inline-product-settings"> </a></div>
                   </div>
-                </span>
-                <div class="payment_footer new_ui show_coupon">
-                  <div id="coupon-container" style="border:1px solid lightgray;padding:5px;border-radius:6px;width:200px;margin-top:8px">
-                    <table id="coupon-table">
-                      <tr>
-                        <th colSpan="2" style="text-align:left"><label id="coupon-header" for="coupon-input">Enter coupon</label></th>
-                      </tr>
-                      <tr>
-                        <td><input type="text" name="coupon-input" id="coupon-input" data-stripe="false" size="15" placeholder="Enter Coupon Code" autoComplete="off" aria-labelledby="coupon-header coupon-message" /></td>
-                        <td width="40%" style="text-align:center"><img loading="lazy" src="https://cdn.jotfor.ms//images/ajax-loader.gif" alt="coupon loading" id="coupon-loader" style="display:none;vertical-align:top" /><button type="button" id="coupon-button" data-qid="input_6" value="">Apply</button></td>
-                      </tr>
-                      <tr>
-                        <th colSpan="2" style="text-align:left"><span id="coupon-message" role="alert"></span></th>
-                      </tr>
-                    </table>
-                  </div><input type="hidden" id="input_6_coupon" name="coupon" />
-                  <div class="total_area">
-                   <div class="form-payment-total">
-                    <div id="total-text">Total</div>
-                    <div class="form-payment-price"><span data-wrapper-react="true">$<span id="payment_total">0.00</span></span></div>
+                  <div class="p_image">
+                    <div class="image_area "></div>
+                  </div>
+                  <div for="input_6_1031" class="form-product-container"><span data-wrapper-react="true">
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1031">Bizzer 3 Month Coaching Subscription + Workout Program</span><span class="form-product-description" id="product-name-description-input_6_1031"></span></div><span class="form-product-details"><span data-wrapper-react="true" class="setupFeeField"><b><span data-wrapper-react="true">$<span id="input_6_1031_setupfee">619.90</span></span></b><span data-wrapper-react="true"> for the <u>first payment</u> then,</span></span><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1031_price">569.91</span></span></b><span data-wrapper-react="true"> for each <u>three months</u></span></span></span>
+                    </span></div>
+                  <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                </div>
+              </span>
+              <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col1 show_desc new_ui" categories="non-categorized" pid="1016" aria-labelledby="label_6">
+                <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                  <div class="p_col">
+                    <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1016" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1016" readonly="" aria-label="Select Product: Bizzer 6 Months Coaching Subscription: " data-is-default-required="false" data-is-default-selected="false" />
+                      <div class="checked"></div>
+                      <div class="select_border"></div>
                     </div>
+                  </div>
+                  <div class="p_image">
+                    <div class="image_area "></div>
+                  </div>
+                  <div for="input_6_1016" class="form-product-container"><span data-wrapper-react="true">
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1016">Bizzer 6 Months Coaching Subscription: </span><span class="form-product-description" id="product-name-description-input_6_1016">($179.99 Monthly)</span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1016_price">1,079.94</span></span></b><span data-wrapper-react="true"> for each <u>six months</u></span></span></span>
+                    </span></div>
+                  <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                </div>
+              </span>
+              <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col2 new_ui" categories="non-categorized" pid="1032" aria-labelledby="label_6">
+                <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                  <div class="p_col">
+                    <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1032" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1032" readonly="" aria-label="Select Product: Bizzer 6 Month Coaching Subscription + Workout Program" data-is-default-required="false" data-is-default-selected="false" />
+                      <div class="checked"></div>
+                      <div class="select_border"></div>
+                    </div>
+                  </div>
+                  <div class="p_image">
+                    <div class="image_area "></div>
+                  </div>
+                  <div for="input_6_1032" class="form-product-container"><span data-wrapper-react="true">
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1032">Bizzer 6 Month Coaching Subscription + Workout Program</span><span class="form-product-description" id="product-name-description-input_6_1032"></span></div><span class="form-product-details"><span data-wrapper-react="true" class="setupFeeField"><b><span data-wrapper-react="true">$<span id="input_6_1032_setupfee">1,129.93</span></span></b><span data-wrapper-react="true"> for the <u>first payment</u> then,</span></span><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1032_price">1,079.94</span></span></b><span data-wrapper-react="true"> for each <u>six months</u></span></span></span>
+                    </span></div>
+                  <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                </div>
+              </span>
+              <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col1 new_ui" categories="non-categorized" pid="1030" aria-labelledby="label_6">
+                <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                  <div class="p_col">
+                    <div class="p_checkbox"><input type="radio" class="form-radio validate[required]  form-product-input" id="input_6_1030" name="q6_signMe6[][id]" data-inputname="q6_signMe6[][id]" value="1030" readonly="" aria-label="Select Product: Workout Program (12 Week Long Training Phase)  " data-is-default-required="false" data-is-default-selected="false" />
+                      <div class="checked"></div>
+                      <div class="select_border"></div>
+                    </div>
+                  </div>
+                  <div class="p_image">
+                    <div class="image_area "></div>
+                  </div>
+                  <div for="input_6_1030" class="form-product-container"><span data-wrapper-react="true">
+                      <div class="title_description"><span class="form-product-name" id="product-name-input_6_1030">Workout Program (12 Week Long Training Phase) </span><span class="form-product-description" id="product-name-description-input_6_1030"></span></div><span class="form-product-details"><span data-wrapper-react="true"><b><span data-wrapper-react="true">$<span id="input_6_1030_price">49.99</span></span></b><span data-wrapper-react="true"> one-time payment</span></span></span>
+                    </span></div>
+                  <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                </div>
+              </span>
+              <div class="payment_footer new_ui show_coupon">
+                <div id="coupon-container" style="border:1px solid lightgray;padding:5px;border-radius:6px;width:200px;margin-top:8px">
+                  <table id="coupon-table">
+                    <tr>
+                      <th colSpan="2" style="text-align:left"><label id="coupon-header" for="coupon-input">Enter coupon</label></th>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="coupon-input" id="coupon-input" data-stripe="false" size="15" placeholder="Enter Coupon Code" autoComplete="off" aria-labelledby="coupon-header coupon-message" /></td>
+                      <td width="40%" style="text-align:center"><img loading="lazy" src="https://cdn.jotfor.ms//images/ajax-loader.gif" alt="coupon loading" id="coupon-loader" style="display:none;vertical-align:top" /><button type="button" id="coupon-button" data-qid="input_6" value="">Apply</button></td>
+                    </tr>
+                    <tr>
+                      <th colSpan="2" style="text-align:left"><span id="coupon-message" role="alert"></span></th>
+                    </tr>
+                  </table>
+                </div><input type="hidden" id="input_6_coupon" name="coupon" />
+                <div class="total_area">
+                  <div class="form-payment-recurringpayments form-payment-label">
+                    <div id="recurringpayments-text">Total</div>
+                    <div class="form-payment-price"><span data-wrapper-react="true">$<span id="payment_recurringpayments">0.00</span></span></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </li>
-        <li class="form-line" data-type="control_button" id="id_2">
-          <div id="cid_2" class="form-input-wide" data-layout="full">
-            <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Continue To Checkout</button></div>
-          </div>
-        </li>
-        <li style="display:none">Should be Empty: <input type="text" name="website" value="" type="hidden" /></li>
-      </ul>
-    </div>
-    <script>
-      JotForm.showJotFormPowered = "old_footer";
-    </script>
-    <script>
-      JotForm.poweredByText = "Powered by Jotform";
-    </script><input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="240553490027149" />
-    <script type="text/javascript">
-      var all_spc = document.querySelectorAll("form[id='240553490027149'] .si" + "mple" + "_spc");
-      for (var i = 0; i < all_spc.length; i++)
-      {
-        all_spc[i].value = "240553490027149-240553490027149";
-      }
-    </script>
-  </form><script type="text/javascript">JotForm.ownerView=true;</script><script type="text/javascript">JotForm.isNewSACL=true;</script>
+        </div>
+      </li>
+      <li style="display:none">Should be Empty: <input type="text" name="website" value="" type="hidden" /></li>
+    </ul>
+  </div>
+  <script>
+    JotForm.showJotFormPowered = "old_footer";
+  </script>
+  <script>
+    JotForm.poweredByText = "Powered by Jotform";
+  </script><input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="240553490027149" />
+  <script type="text/javascript">
+    var all_spc = document.querySelectorAll("form[id='240553490027149'] .si" + "mple" + "_spc");
+    for (var i = 0; i < all_spc.length; i++)
+    {
+      all_spc[i].value = "240553490027149-240553490027149";
+    }
+  </script>
+</form><script type="text/javascript">JotForm.ownerView=true;</script><script type="text/javascript">JotForm.isNewSACL=true;</script>
